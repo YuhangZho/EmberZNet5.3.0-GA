@@ -1,0 +1,532 @@
+#ISD App Configuration:3.1
+# ISD version: 3.3.1884
+#  Identified of a stack descriptor used for this configuration. This should not
+#  be changed manually, unless you really know what you are doing.
+ConfiguratorID:auto-EM35X
+
+#  Output directory which is used as a root for all generated files. The actual
+#  files relative to that directory are defined by individual file name.
+GenerationDirectory:PATH(ABSOLUTE):D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\.
+
+#  Unique identifier for this device. This string should be in a form of a C
+#  identifier, as it will be used in both generated variable, macros, as well as
+#  file names. You should generally not use characters which are not valid
+#  characters in a C identifier here.
+DeviceName:shangrui_gateway
+
+#  Type of the endpoint. Each endpoint implement one endpoint type. There can be
+#  one or more endpoint types, regardless of number of actual endpoints.
+EndpointType:Primary,-1
+
+#  The ZCL device that this particular endpoint is implementing.
+DeviceType:Primary,zcustom
+
+#  Overrides a particular client configuration. This happens when you have
+#  chosen to include/exclude a client cluster that is optional. Contains
+#  'clusterId', 'exclude/include' and the endpoint type name.
+OverrideClient:0,include,Primary
+
+OverrideClient:3,include,Primary
+
+OverrideClient:4,include,Primary
+
+OverrideClient:5,include,Primary
+
+OverrideClient:6,include,Primary
+
+OverrideClient:8,include,Primary
+
+OverrideClient:300,include,Primary
+
+OverrideClient:702,include,Primary
+
+#  Overrides a particular server configuration. This happens when you have
+#  chosen to include/exclude a server cluster that is optional. Contains
+#  'clusterId', 'exclude/include' and the endpoint type name.
+OverrideServer:19,include,Primary
+
+#  ZigBee PRO network configuration.  Each endpoint belongs to a single network
+#  configuration.  There can be one or more network configurations.
+ZigbeeProNetwork:*Primary,ZA_COORDINATOR,HA
+
+#  A path, relative to the root of the stack which indicates where to find a
+#  custom token header. This file will be included in the frameworks main token
+#  header located at app/framework/util/tokens.h
+TokenPath:
+
+#  Lists the channels that this application will be configured to use.
+Channels:11
+
+#  Definitions of individual endpoints. For each endpoint the endpoint number
+#  (1-254) is listed, as well as the endpoint type that this endpoint will
+#  serve.
+ConfiguredEndpoints:*1&260&257&0&Primary&Primary
+
+#  A single specification version for each profile defining the max version of
+#  the spec supported by this configuration.
+SpecVersions:
+
+#  In case of a network coprocessor, this lists a host processor used.
+Host:unknown
+
+#  Ember network processor targeted for this application.
+Platform:em3581
+
+#  Enable callbacks.
+Callbacks:,
+
+#  If bindings are enabled then this is the maximum number of supported
+#  bindings.
+NumberOfBindings:16
+
+#  The size of the stack address table which will be used by the stack to
+#  maintain IEEE to ZigBee short id mappings.
+AddressTableSize:2
+
+#  The size of the portion of the address table used by the trust center as an
+#  address cache. The total size of the address table will be equal to this
+#  value plus the size of the address table set in the AddressTableSize.
+TrustCenterCacheSize:2
+
+#  Manufacturing code user in reporting.
+ManufacturingCode:4448
+
+#  Maximum number of supported reported attributes.
+ReportTableSize:5
+
+#  The mode of the link key handling on a trust center.
+LinkKeyMode:2
+
+#  If not using multiple endpoint support, this value contains the default
+#  endpoint. With multiple endpoint support, this number is ignored.
+Endpoint:10
+
+#  Version of this device.
+DeviceVersion:0
+
+#  Master endpoint which contains global information.
+DefaultDestinationEndpoint:10
+
+#  Profile Id used for the application.
+ProfileId:-1
+
+#  Device Id used for the application.
+DeviceId:-1
+
+#  The largest size for a fragment buffer.
+FragmentationMaxSize:255
+
+#  Size of the table for source routing.
+SourceRouteTableSize:7
+
+#  Default response policy.
+DefaultResponsePolicy:2
+
+#  The level of debugging supported.
+DebugLevel:2
+
+#  Configuration of command-line interface.
+CLIMode:2
+
+#  Configuration of heartbeat.
+HeartbeatLed:2
+
+#  If this option is set to true, standard reporting is enabled.
+EnableStandardReporting:false
+
+#  If the device needs to perform inter-PAN sends, then this option should be
+#  enabled.
+EnableInterPanSend:false
+
+#  If the device needs to perform inter-PAN receives, then this option should be
+#  enabled.
+EnableInterPanReceive:false
+
+#  Enable serial commands for ZDO.
+EnableZdoSerialCommands:false
+
+#  Enable this option if you wish to enable device bindings.
+EnableBindings:true
+
+#  Turn this option on, if end-device binding is enabled.
+EnableEndDeviceBind:false
+
+#  Enables the statistics receiving.
+EnableReceiveStatistics:false
+
+#  If true, then command discovery commands are supported.
+SupportCommandDiscovery:true
+
+#  Selects whether application will use the ECC 163k1 library.
+UseEcc163k1:false
+
+#  Selects whether application will use the ECC 283k1 library.
+UseEcc283k1:false
+
+#  Enable preconfigured keys for security.
+PreconfiguredKeyEnabled:false
+
+#  Enable network key.
+NetworkKeyEnabled:false
+
+#  If this option is turned on, then appBuilder will automatically generate the
+#  files, immediately upon saving the ISC file.
+AutoGenerate:false
+
+#  Enable key switching.
+EnableKeySwitch:false
+
+#  Use this setting to turn on fragmentation.
+FragmentationEnable:false
+
+#  Enables concentrator support
+EnableConcentrator:true
+
+#  If true, then this concentrator is low ram, otherwise high ram
+LowRamConcentrator:true
+
+#  If this option is set to true, then MFG_INSTALL_CODE token is used for
+#  setting the security install code.
+UseSeInstallCodes:false
+
+#  If this option is turned on, then the code will enable the checking of the
+#  attributes.
+EnableAttributeRangeChecking:false
+
+#  Enable application handling of supported ZigBee Device Object messages.
+ReceiveSupportedZdoRequests:false
+
+#  Enable application handling of unsupported ZigBee Device Object messages.
+HandleUnsupportedZdoRequests:false
+
+#  Enable application handling of ZigBee Device Object requests related to
+#  endpoints.
+HandleEndpointZdoRequests:false
+
+#  Enable application handling of ZigBee Device Object requests related to
+#  bindings.
+HandleBindingZdoRequests:false
+
+#  Use token for TX power mode.
+TxPowerModeUseToken:true
+
+#  Enable boost power mode.
+BoostMode:false
+
+#  Enable the alternate transmitter output.
+AlternatePowerMode:false
+
+#  Use legacy CLI instead of generated CLI.
+LegacyCli:false
+
+#  Add Custom CLI sub-menu
+AddCustomCli:false
+
+#  Include command and argument descriptions in the embedded code.
+IncludeCommandDescriptions:true
+
+#  If set, then project-specific callbacks file will be generated.
+GenerateCallbacksFile:true
+
+#  Actual preconfigured key, if it is enabled.
+PreconfiguredKey:56777777777777777777777777777777
+
+#  Actual network key.
+NetworkKey:12333333333333333333333333333333
+
+#  Actual second network key.
+NetworkKey2:ABCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+
+# Setup configurations
+{setupId:additionalFiles
+}
+{setupId:boardHeader
+}
+{setupId:bootloader
+}
+{setupId:debugConfiguration
+on
+area name off
+appSerial=1
+}
+{setupId:halOptions
+}
+{setupId:information
+}
+{setupId:macros
+-DSENGLED_COR
+}
+{setupId:rf4ce
+nodeCapabilities=0
+vendorId=65521
+vendorString=
+userString=
+deviceTypes=[254]
+profileIds=[0]
+power=3
+}
+{setupId:rf4ceMso
+}
+{setupId:rf4ceZrc
+}
+{setupId:serial
+em357=0,false,*,*,*,*,*
+em3581=0,false,*,*,*,*,*
+}
+#  The name of the set of Command Line Interface (CLI) commands that are
+#  compiled into the application by default.
+CliCommandSet:Full
+
+#  These are the various Command Line Interface (CLI) commands that can be
+#  included, or excluded (if they are included by default), in the application.
+#  Plugin configuration
+appPlugin:address-table,true
+
+appPlugin:basic,false
+
+appPlugin:button-joining,false
+
+appPlugin:color-control,true
+
+appPlugin:concentrator,true
+
+appPlugin:counters,true
+
+appPlugin:device-management-server,false
+
+appPlugin:diagnostic-server,true
+
+appPlugin:door-lock-server,true
+
+appPlugin:drlc,true
+
+appPlugin:drlc-server,false
+
+appPlugin:e1a-ac2-app,false
+
+appPlugin:eeprom,true
+
+appPlugin:end-device-support,false
+
+appPlugin:esi-management,true
+
+appPlugin:ezmode-commissioning,true
+
+appPlugin:fragmentation,false
+
+appPlugin:gateway,false
+
+appPlugin:gateway-app,false
+
+appPlugin:general-response-commands,false
+
+appPlugin:groups-client,true
+
+appPlugin:groups-server,true
+
+appPlugin:hc-11073-tunnel,true
+
+appPlugin:ias-zone-client,false
+
+appPlugin:ias-zone-server,false
+
+appPlugin:IcontrolDimmableLampApp,false
+
+appPlugin:identify,true
+
+appPlugin:identify-feedback,true
+
+appPlugin:idle-sleep,false
+
+appPlugin:interpan,false
+
+appPlugin:key-establishment,true
+
+appPlugin:level-control,true
+
+appPlugin:messaging-client,true
+
+appPlugin:messaging-server,true
+
+appPlugin:meter-mirror,false
+
+appPlugin:meter-snapshot-server,false
+
+appPlugin:meter-snapshot-storage,false
+
+appPlugin:mn-price-passthrough,true
+
+appPlugin:network-find,true
+
+appPlugin:on-off,true
+
+appPlugin:ota-bootload,true
+
+appPlugin:ota-client,true
+
+appPlugin:ota-client-policy,true
+
+appPlugin:ota-common,true
+
+appPlugin:ota-server,true
+
+appPlugin:ota-server-policy,true
+
+appPlugin:ota-storage-common,true
+
+appPlugin:ota-storage-custom,false
+
+appPlugin:ota-storage-custom-eeprom,false
+
+appPlugin:ota-storage-posix-filesystem,false
+
+appPlugin:ota-storage-simple,true
+
+appPlugin:ota-storage-simple-eeprom,true
+
+appPlugin:ota-storage-simple-ram,false
+
+appPlugin:partner-link-key-exchange,true
+
+appPlugin:poll-control-client,true
+
+appPlugin:poll-control-server,true
+
+appPlugin:price-client,true
+
+appPlugin:price-server,true
+
+appPlugin:pwm-control,false
+
+appPlugin:reporting,false
+
+appPlugin:scenes,true
+
+appPlugin:scenes-client,false
+
+appPlugin:sengled-debug-ZC,false
+
+appPlugin:sengled-ha-cli,false
+
+appPlugin:sengled-ha-common,false
+
+appPlugin:sengled-ha-common-B815,false
+
+appPlugin:sengled-ha-common-Downlight,false
+
+appPlugin:sengled-ha-common-Highbay,false
+
+appPlugin:sengled-ha-common-Plugbase,false
+
+appPlugin:sengled-ha-common-TrackLight,false
+
+appPlugin:sengled-ha-ezmode,false
+
+appPlugin:sengled-ha-ezmode-Plugbase,false
+
+appPlugin:sengled-ha-gateway,false
+
+appPlugin:sengled-ha-network-B815,false
+
+appPlugin:sengled-ha-network-Downlight,false
+
+appPlugin:sengled-ha-network-Highbay,false
+
+appPlugin:sengled-ha-network-Plugbase,false
+
+appPlugin:sengled-ha-network-TrackLight,false
+
+appPlugin:sengled-ha-switch,false
+
+appPlugin:sengled-hardware-A19EUE27,false
+
+appPlugin:sengled-hardware-B815,false
+
+appPlugin:sengled-hardware-Downlight,false
+
+appPlugin:sengled-hardware-Highbay,false
+
+appPlugin:sengled-hardware-Plugbase,false
+
+appPlugin:sengled-hardware-TrackLight,false
+
+appPlugin:simple-clock,false
+
+appPlugin:simple-metering-client,true
+
+appPlugin:simple-metering-server,true
+
+appPlugin:smart-energy-registration,true
+
+appPlugin:stack-diagnostics,false
+
+appPlugin:standalone-bootloader-client,false
+
+appPlugin:standalone-bootloader-common,false
+
+appPlugin:standalone-bootloader-server,false
+
+appPlugin:test-harness,false
+
+appPlugin:test-z01-gateway,false
+
+appPlugin:time-server,true
+
+appPlugin:tou-calendar-client,true
+
+appPlugin:tou-calendar-common,false
+
+appPlugin:tou-calendar-server,true
+
+appPlugin:trust-center-backup,false
+
+appPlugin:trust-center-join-decision,false
+
+appPlugin:trust-center-keepalive,false
+
+appPlugin:trust-center-nwk-key-update-broadcast,false
+
+appPlugin:trust-center-nwk-key-update-periodic,false
+
+appPlugin:trust-center-nwk-key-update-unicast,false
+
+appPlugin:tunneling-client,true
+
+appPlugin:tunneling-server,true
+
+appPlugin:xmodem-sender,false
+
+appPlugin:z01-a19-gateway-app,false
+
+appPlugin:z01-a19-hv2-app,false
+
+appPlugin:z01-a19eue27-app,false
+
+appPlugin:z02-gateway-app,false
+
+appPlugin:z03-gateway-app,false
+
+appPlugin:Z03Hub-FakeZ3,false
+
+appPlugin:zll-commissioning,true
+
+appPlugin:zll-identify-server,true
+
+appPlugin:zll-level-control-server,true
+
+appPlugin:zll-on-off-server,true
+
+appPlugin:zll-scenes-client,false
+
+appPlugin:zll-scenes-server,true
+
+appPlugin:zll-utility-client,false
+
+appPlugin:zll-utility-server,true
+
+#  Plugin specific options
+AppPluginOption:EMBER_AF_PLUGIN_CONCENTRATOR_CONCENTRATOR_TYPE,HighRamConcentrator
+
+AppPluginOption:EMBER_AF_PLUGIN_OTA_STORAGE_SIMPLE_EEPROM_READ_MODIFY_WRITE_SUPPORT,FALSE
+

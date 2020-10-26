@@ -1,0 +1,26 @@
+em3xx_convert (Version 4.3.2.0 build 57)
+
+Parse .s37 format for flash
+Parse .s37 format for flash
+Targeting UNKNOWN
+
+Approximate Usage Information:
+RAM Usage:
+  APPLICATION_CONFIGURATION_HEADER usage: 0x20000000-0x20000d63 (3428 bytes)
+  Available for future use:               0x20000d64-0x2000159f (2108 bytes)
+  Call Stack:                             0x200015a0-0x20001eff (2400 bytes)
+  Globals and Statics:                    0x20001f00-0x20002fea (4331 bytes)
+  Alignment Overhead:                     0x20002feb-0x20002fef (5 bytes)
+  NO_INIT and Debug Channel:              0x20002ff0-0x20002fff (16 bytes)
+Flash Usage:
+  CODE and Tables:                        0x08000000-0x0801fdeb (130540 bytes)
+  CONST and INITC:                        0x0801fdec-0x08025c47 (24156 bytes)
+  Available for future use:               0x08025c48-0x0802dfff (33720 bytes)
+  Reserved for SIMEE:                     0x0802e000-0x0802ffff (8192 bytes)
+
+Usage Summary:
+  12288 total bytes RAM, 10180 used, 2108 available
+  196608 total bytes Flash, 162888 used, 33720 available
+
+WARNING: NULL_BTL image detected, not generating ebl file
+DONE

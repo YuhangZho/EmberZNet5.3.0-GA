@@ -1,0 +1,126 @@
+<!-- 
+     This xml file contains a sample extension to the Application Framework's
+     cluster definitions. There are 4 ways to add manufacturer specific
+     extensions within ZigBee.  
+     
+     1. Private Profile: 
+        You can create your own private ZigBee profile.
+        We do not provide an example of this here since private profiles 
+        may or may not even use the cluster library or something like it. If
+        you create your own custom profile you can basically do whatever you
+        want after the APS frame in the ZigBee packet. If you choose to use
+        the ZigBee cluster library within your private profile the Application
+        Framework will be useful to you. If you do not, it will not be useful
+        to you as all of the code in the Application Framework centers around
+        support for the ZigBee Cluster Library (ZCL).
+      
+    2. Manufacturer Specific Clusters:
+       You can add manufacturer specific clusters to a standard profile.
+       We provide an example of this below. In order to do this you must
+       satisfy two obligations:
+         
+         1. The cluster id MUST be in the manufacturer specific range,
+            0xfc00 - 0xffff.
+         2. The cluster definition must include a manufacturer code 
+            which will be applied to ALL attributes and 
+            commands within that cluster and must be provided when sending 
+            and receiving commands and interacting with attributes. 
+     
+     3. Manufacturer Specific Commands in Standard ZigBee Custer:
+        You can add your own commands to any standard ZigBee cluster with 
+        the following requirements:
+        
+        1. Your manufacturer specific commands may use any command id 
+          within the command id range, 0x00 - 0xff. 
+        2. You must also provide a manufacturer code for the command so 
+           that it can be distinguished from other commands in the cluster 
+           and handled appropriately.
+     
+     4. Manufacturer Specific Attributes in Standard ZigBee Cluster:
+        You can add your own attributes to any standard ZigBee cluster with 
+        the following requirements:
+        
+        1. Your manufacturer specific attributes may use any attribute id 
+           within the attribute id range, 0x0000 - 0xffff. 
+        2. You must also provide a manufacturer code for the attribute so 
+           that it can be distinguished from other attributes in the cluster 
+           and handled appropriately.
+        
+     This sample provides an example of how to:
+       1. Extend the ZCL with a manufacturer specific cluster 
+       2. Extend the standard ZCL on/off cluster with manufacturer specific
+          attributes.
+       3. Extend the standard ZCL on/off cluster with manufacturer specific
+          commands.
+     
+     Manufacturer Code:
+     In all cases below, we have used Ember's manufacturerCode 0x1002 since
+     the cluster, attributes and the commands were created by Ember 
+     as an example of how the Application Framework can be 
+     extended to support manufacturer specific commands and attributes.
+     
+     XML Validation:
+     You may validate any xml file that you create against the 
+     AppBuilder XSD located in tool/appbuilder/appbuilder.xsd
+     
+-->
+
+<configurator>
+  <domain name="Sengled" />
+  <!-- Use manufacturerCode to indicate that this is a manufacturer specific
+       cluster. -->
+  <cluster manufacturerCode="0x1160">
+    <name>sengled control</name>
+    <domain>Sengled</domain>
+    <description>This cluster provides SengLed control. </description>
+    <!-- Cluster Id must be within the mfg spec range 0xfc00 - 0xffff -->
+    <code>0xFC01</code> 
+    <define>SENGLED_CONTROL_CLUSTER</define>
+    <client init="false" tick="false">true</client>
+    <server init="false" tick="false">true</server>
+    <attribute side="server" code="0x0000" define="ILLUMINATION_THRESHOLD"                    type="INT8U"   min="0x00"   max="0x01"   writable="true"  default="0x01"   optional="true" >illumination threshold</attribute> 
+    <attribute side="server" code="0x0001" define="AUTOMATIC_LIGHTS_ENABLE"                   type="BOOLEAN" min="0x00"   max="0x01"   writable="true"  default="0x01"   optional="true" >Automatic lights enable</attribute> 
+    <attribute side="server" code="0x0002" define="SAVE_ENABLE"                               type="BOOLEAN" min="0x00"   max="0x01"   writable="true"  default="0x01"   optional="true" >Save enable</attribute> 
+    <attribute side="server" code="0x0003" define="SENGLED_OCCUPANCY"                         type="INT8U"   min="0x00"   max="0x01"   writable="false" default="0x00"   optional="false">sengled occupancy</attribute> 
+    <attribute side="server" code="0x0004" define="SENGLED_PIR_OCCUPIED_TO_UNOCCUPIED_DELAY"  type="INT16U"  min="0x00"   max="0x3840" writable="true"  default="0x005a" optional="true" >sengled PIR occupied to unoccupied delay</attribute> 
+  </cluster>
+  
+  <cluster manufacturerCode="0x1160">
+    <name>Mobile Scense</name>
+    <domain>Sengled</domain>
+    <description>This cluster provides SengLed Mobile Scense. </description>
+    <!-- Cluster Id must be within the mfg spec range 0xfc00 - 0xffff -->
+    <code>0xFC02</code> 
+    <define>SENGLED_MOBILE_SCENSE_CLUSTER</define>
+    <client init="false" tick="false">true</client>
+    <server init="false" tick="false">true</server>
+    <command source="client" code="0x00" name="MobileControl" optional="false" manufacturerCode="0x1160" cli="zcl Mobile Control">
+      <description>
+        Command description for MobileControl
+      </description>
+      <arg name="controlType"    type="INT16U"/>
+      <arg name="controlData"    type="INT16U"/>
+      <arg name="transitionTime" type="INT16U"/>      
+    </command>
+  </cluster>
+
+  <cluster manufacturerCode="0x1160">
+    <name>sengled_Test</name>
+    <domain>Sengled</domain>
+    <description>This cluster provides SengLed RGB test </description>
+    <!-- Cluster Id must be within the mfg spec range 0xfc00 - 0xffff -->
+    <code>0xFC03</code> 
+    <define>SENGLED_TEST_CLUSTER</define>
+    <client init="false" tick="false">true</client>
+    <server init="false" tick="false">true</server>
+    <attribute side="server" code="0x0000" define="Temp_ADC_DATA"   type="INT16U" min="0x0000" max="0xFFFF" writable="true" default="0x01ff" optional="true">Temp_ADC_DATA</attribute> 
+    <command source="client" code="0x00" name="Sengled_test" optional="false" manufacturerCode="0x1160" cli="sengled TEST Control">
+      <description>
+        Command description for sengled_test
+      </description>
+      <arg name="sengled_cmd"     type="INT8U"/>  <!--  --> 
+      <arg name="sengled_data"    type="INT16U"/>  <!--  -->
+    </command>
+  </cluster>
+  
+</configurator>

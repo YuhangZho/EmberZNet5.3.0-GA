@@ -1,0 +1,22 @@
+image-builder Copyright 2013 Silicon Laboratories, Inc.
+Version: 1.5.1
+ECC signature support NOT present.
+
+EBL file integrity 'B_TrackLight.ebl': OK
+
+File: D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\B_TrackLight\B_TrackLight.ota
+Magic Number:         0x0BEEF11E
+Header Version:       0x0100
+Header Length:        56 bytes
+Field Control:        0x0000
+Manufacturer ID:      0x1160
+Image Type:           0x07DA
+Firmware Version:     0x00000011
+Stack Version:        0x0002
+Header String:        EBL B_TrackLight
+Total Image Size:     127550 bytes
+Total Tags:           1
+  ID:                 0x0000   (Upgrade Image)
+  Length:             127488 bytes
+
+

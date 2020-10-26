@@ -1,0 +1,27 @@
+em3xx_convert (Version 4.9.3.0 build 121)
+
+Parse .s37 format for flash
+Parse .s37 format for flash
+Targeting UNKNOWN
+
+Approximate Usage Information:
+RAM Usage:
+  APPLICATION_CONFIGURATION_HEADER usage: 0x20000000-0x20000d7f (3456 bytes)
+  Available for future use:               0x20000d80-0x2000192f (2992 bytes)
+  Call Stack:                             0x20001930-0x2000228f (2400 bytes)
+  Globals and Statics:                    0x20002290-0x20002fef (3424 bytes)
+  NO_INIT and Debug Channel:              0x20002ff0-0x20002fff (16 bytes)
+Flash Usage:
+  Reserved for Bootloader:                0x08000000-0x08001fff (8192 bytes)
+  CODE and Tables:                        0x08002000-0x080206c3 (124612 bytes)
+  CONST and INITC:                        0x080206c4-0x08023767 (12452 bytes)
+  Available for future use:               0x08023768-0x0802dfff (43160 bytes)
+  Reserved for SIMEE:                     0x0802e000-0x0802ffff (8192 bytes)
+
+Usage Summary:
+  12288 total bytes RAM, 9296 used, 2992 available
+  196608 total bytes Flash, 153448 used, 43160 available
+
+Create ebl image file
+Wrote image stamp into AAT.
+DONE

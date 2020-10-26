@@ -1,0 +1,5 @@
+var group__plugin_fragmentation =
+[
+    [ "EMBER_AF_DOXYGEN_CLI_COMMAND_PLUGIN_FRAGMENTATION_PLUGIN_FRAGMENTATION_SET_RX_WINDOW_SIZE", "group__plugin-fragmentation.html#ga8c29695534d1f95b01380f9c0f0819e2", null ],
+    [ "EMBER_AF_DOXYGEN_CLI_COMMAND_PLUGIN_FRAGMENTATION_PLUGIN_FRAGMENTATION_ARTIFICIAL_BLOCK_DROP", "group__plugin-fragmentation.html#gaa623e7be50f67d61740b34858d9875a7", null ]
+];

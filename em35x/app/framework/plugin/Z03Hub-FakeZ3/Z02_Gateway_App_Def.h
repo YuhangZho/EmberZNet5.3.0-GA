@@ -1,0 +1,40 @@
+
+#ifndef _Z02_GATEWAY_APP_DEF_
+#define _Z02_GATEWAY_APP_DEF_
+
+
+#define SENGLED_UART_APP
+
+/**********   OTA Need ! **********/
+#define OTA_SENGLED_WMS
+#define SENGLED_OTA_END_WMS
+/*******************************/
+//#define SENGLED_OTA_ABORT_WMS
+
+//#define Z3_SUPPORT
+#define EMBER_MAX_END_DEVICE_CHILDREN 64
+
+
+#define COLOR_TEMPRATURE_MAX 370
+#define COLOR_TEMPRATURE_MIN 153
+#define COLOR_TEMPRATURE_D_VALUE  (COLOR_TEMPRATURE_MAX-COLOR_TEMPRATURE_MIN)
+
+#define EMBER_APS_UNICAST_MESSAGE_COUNT 14
+
+#define EMBER_AF_PLUGIN_OTA_SERVER_MIN_BLOCK_REQUEST_SUPPORT
+
+#define SENGLED_COR
+
+// support heiman sensor
+#define HEIMAN_SUPPORT
+
+// support RGB Color
+#define RGB_COLOR_SUPPORT
+
+//#define ELEMENT_GATEWAY
+
+#define HUBS02_3581
+//#define DATA_POLL_SUPPORT
+
+//#define EMBER_ORIGINAL_CODE
+#endif

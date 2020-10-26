@@ -1,0 +1,360 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.50.5.4819/W32 for ARM               10/Aug/2017  14:59:45 #
+# Copyright 2007-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\app #
+#                    -bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680 #
+#                    -eeprom_uses_shutdown_control\app-bootloader-spiflash.ou #
+#                    t                                                        #
+#    Map file     =  D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\app #
+#                    -bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680 #
+#                    -eeprom_uses_shutdown_control\app-bootloader-spiflash.ma #
+#                    p                                                        #
+#    Command line =  D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\app #
+#                    -bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680 #
+#                    -eeprom_uses_shutdown_control\app-bootloader-custom.o    #
+#                    D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\app #
+#                    -bootloader-library-cortexm3-iarboot-em357-null\app-boot #
+#                    loader-library.a D:\Tools\Sengled\Ember\EmberZNet5.3.0-G #
+#                    A\em35x\build\app-bootloader-spiflash-cortexm3-iarboot-e #
+#                    m357-null-dev0680-eeprom_uses_shutdown_control\bootloade #
+#                    r-gpio.o D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\ #
+#                    build\app-bootloader-spiflash-cortexm3-iarboot-em357-nul #
+#                    l-dev0680-eeprom_uses_shutdown_control\bootloader-uart.o #
+#                     D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\ap #
+#                    p-bootloader-spiflash-cortexm3-iarboot-em357-null-dev068 #
+#                    0-eeprom_uses_shutdown_control\crc.o                     #
+#                    D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\app #
+#                    -bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680 #
+#                    -eeprom_uses_shutdown_control\cstartup-iar-boot-entry.o  #
+#                    D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\app #
+#                    -bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680 #
+#                    -eeprom_uses_shutdown_control\cstartup-iar-boot.o        #
+#                    D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\app #
+#                    -bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680 #
+#                    -eeprom_uses_shutdown_control\isr-stubs.o                #
+#                    D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\app #
+#                    -bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680 #
+#                    -eeprom_uses_shutdown_control\led.o                      #
+#                    D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\app #
+#                    -bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680 #
+#                    -eeprom_uses_shutdown_control\mem-util.o                 #
+#                    D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\app #
+#                    -bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680 #
+#                    -eeprom_uses_shutdown_control\mfg-token.o                #
+#                    D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\app #
+#                    -bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680 #
+#                    -eeprom_uses_shutdown_control\micro-common.o             #
+#                    D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\app #
+#                    -bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680 #
+#                    -eeprom_uses_shutdown_control\random.o                   #
+#                    D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\app #
+#                    -bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680 #
+#                    -eeprom_uses_shutdown_control\spiflash-class1.o          #
+#                    --redirect _Printf=_PrintfFull --redirect                #
+#                    _Scanf=_ScanfFull -o D:\Tools\Sengled\Ember\EmberZNet5.3 #
+#                    .0-GA\em35x\build\app-bootloader-spiflash-cortexm3-iarbo #
+#                    ot-em357-null-dev0680-eeprom_uses_shutdown_control\app-b #
+#                    ootloader-spiflash.out --config_def BOOTLOADER=1 --map   #
+#                    D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\app #
+#                    -bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680 #
+#                    -eeprom_uses_shutdown_control\app-bootloader-spiflash.ma #
+#                    p --log initialization,modules,sections,veneers          #
+#                    --log_file D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35 #
+#                    x\build\app-bootloader-spiflash-cortexm3-iarboot-em357-n #
+#                    ull-dev0680-eeprom_uses_shutdown_control\app-bootloader- #
+#                    spiflash.log --config D:\Tools\Sengled\Ember\EmberZNet5. #
+#                    3.0-GA\em35x\tool\bootloader-em357\app-bootloader-spifla #
+#                    sh/../../../hal/micro/cortexm3/em35x/em357/iar-cfg.icf   #
+#                    --entry halEntryPoint --vfe                              #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"APP ro":
+       place at start of [0x08000000-0x08001fff] { block BOOTRO_block };
+"FAT": place at 0x08040000 { section FAT };
+"AAT": place at 0x08002000 { section AAT };
+"BOOT rw":
+       place at start of [0x20000000-0x20002fdf] { block BOOTRW_block };
+
+  Section                Kind        Address    Size  Object
+  -------                ----        -------    ----  ------
+"APP ro":                                     0x14b0
+  BOOTRO_block                    0x08000000  0x14b0  <Block>
+    BAT                  const    0x08000000    0x54  cstartup-iar-boot.o [1]
+    .text                ro code  0x08000054    0x88  app-bootloader-custom.o [1]
+    .text                ro code  0x080000dc    0x8c  bootloader-gpio.o [1]
+    .text                ro code  0x08000168   0x200  app-bootloader.o [3]
+    .text                ro code  0x08000368    0x58  micro-internal.o [3]
+    .text                ro code  0x080003c0    0xc4  bootloader-uart.o [1]
+    .text                ro code  0x08000484    0x90  micro-common.o [1]
+    .text                ro code  0x08000514    0x5c  led.o [1]
+    .text                ro code  0x08000570   0x3a0  spiflash-class1.o [1]
+    .text                ro code  0x08000910   0x252  xmodem.o [3]
+    .text                ro code  0x08000b64   0x386  ebl.o [3]
+    .text                ro code  0x08000eec   0x1c8  clocks.o [3]
+    .text                ro code  0x080010b4   0x150  cstartup-iar-boot.o [1]
+    .text                ro code  0x08001204    0xb4  micro-common-internal.o [3]
+    .text                ro code  0x080012b8    0x44  crc.o [1]
+    .text                ro code  0x080012fc    0x68  mfg-token.o [1]
+    .text                ro code  0x08001364    0x54  mem-util.o [1]
+    .text                ro code  0x080013b8    0x30  cstartup-iar-boot-entry.o [1]
+    .text                ro code  0x080013e8    0xb0  flash.o [3]
+    .rodata              const    0x08001498     0xc  spiflash-class1.o [1]
+    .rodata              const    0x080014a4     0x2  mfg-token.o [1]
+    .rodata              const    0x080014a6     0x2  micro-common.o [1]
+    .data_init                    0x080014a8     0x8  <Block>
+      Initializer bytes  ro data  0x080014a8     0x8  <for .data-1>
+                                - 0x080014b0  0x14b0
+
+"AAT":                                          0xac
+  AAT                    uninit   0x08002000    0xac  cstartup-iar-boot.o [1]
+                                - 0x080020ac    0xac
+
+"FAT":                                          0x2c
+  FAT                    uninit   0x08040000    0x2c  cstartup-iar-boot.o [1]
+                                - 0x0804002c    0x2c
+
+"BOOT rw":                                     0xcbd
+  BOOTRW_block                    0x20000000   0xcbd  <Block>
+    CSTACK_overlay                0x20000000   0x400  <Overlay>
+      part 1:
+        CSTACK                    0x20000000   0x400  <Block>
+          CSTACK         const    0x20000000     0x0  cstartup-iar-boot-entry.o [1]
+          CSTACK         const    0x20000000     0x0  isr-stubs.o [1]
+          CSTACK         uninit   0x20000000   0x400  cstartup-iar-boot.o [1]
+      part 2:
+        RESETINFO                 0x20000000    0x98  <Block>
+          RESETINFO      const    0x20000000     0x0  cstartup-iar-boot-entry.o [1]
+          RESETINFO      const    0x20000000     0x0  isr-stubs.o [1]
+          RESETINFO      uninit   0x20000000    0x98  cstartup-iar-boot.o [1]
+    .data                         0x20000400     0x8  <Block>
+      .data-1                     0x20000400     0x6  <Init block>
+        .data            inited   0x20000400     0x6  clocks.o [3]
+    .bss                          0x20000408   0x8b5  <Block>
+      .bss               uninit   0x20000408   0x820  app-bootloader.o [3]
+      .bss               uninit   0x20000c28    0x90  app-bootloader.o [3]
+      .bss               uninit   0x20000cb8     0x2  bootloader-gpio.o [1]
+      .bss               uninit   0x20000cba     0x2  cstartup-iar-boot.o [1]
+      .bss               uninit   0x20000cbc     0x1  flash.o [3]
+                                - 0x20000cbd   0xcbd
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                     ro code  ro data  rw data
+    ------                     -------  -------  -------
+D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control: [1]
+    app-bootloader-custom.o        136
+    bootloader-gpio.o              140                 2
+    bootloader-uart.o              196
+    crc.o                           68
+    cstartup-iar-boot-entry.o       48
+    cstartup-iar-boot.o            336       84      218
+    led.o                           92
+    mem-util.o                      84
+    mfg-token.o                    104        2
+    micro-common.o                 144        2
+    spiflash-class1.o              928       12
+    ----------------------------------------------------
+    Total:                       2 276      100      220
+
+command line: [2]
+    ----------------------------------------------------
+    Total:
+
+app-bootloader-library.a: [3]
+    app-bootloader.o               512             2 224
+    clocks.o                       456        6        6
+    ebl.o                          902
+    flash.o                        176                 1
+    micro-common-internal.o        180
+    micro-internal.o                88
+    xmodem.o                       594
+    ----------------------------------------------------
+    Total:                       2 908        6    2 231
+
+    Gaps                             4
+    Linker created                            2    1 024
+--------------------------------------------------------
+    Grand Total:                 5 188      108    3 475
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.bss$$Base              0x20000408          --   Gb  - Linker created -
+.bss$$Limit             0x20000cbd          --   Gb  - Linker created -
+.data$$Base             0x20000400          --   Gb  - Linker created -
+.data$$Limit            0x20000408          --   Gb  - Linker created -
+.data_init$$Base        0x080014a8          --   Gb  - Linker created -
+.data_init$$Limit       0x080014b0          --   Gb  - Linker created -
+BOOTRO_block$$Base      0x08000000          --   Gb  - Linker created -
+BOOTRO_block$$Limit     0x080014b0          --   Gb  - Linker created -
+BOOTRW_block$$Base      0x20000000          --   Gb  - Linker created -
+BOOTRW_block$$Limit     0x20000cbd          --   Gb  - Linker created -
+CSTACK$$Base            0x20000000          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000400          --   Gb  - Linker created -
+CSTACK_overlay$$Base    0x20000000          --   Gb  - Linker created -
+CSTACK_overlay$$Limit   0x20000400          --   Gb  - Linker created -
+RESETINFO$$Base         0x20000000          --   Gb  - Linker created -
+RESETINFO$$Limit        0x20000098          --   Gb  - Linker created -
+Region$$Table$$Base     0x00000000          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00000000          --   Gb  - Linker created -
+TOKEN_MFG_OSC24M_BIAS_TRIM
+                        0x080014a4    0x2  Data  Gb  mfg-token.o [1]
+biasTrim                0x20000404    0x2  Data  Gb  clocks.o [3]
+bootloadForceActivation
+                        0x080000dd    0x4  Code  Gb  bootloader-gpio.o [1]
+bootloadGpioInit        0x080000e1   0x2e  Code  Gb  bootloader-gpio.o [1]
+bootloadStateIndicator  0x08000111   0x50  Code  Gb  bootloader-gpio.o [1]
+bootloaderAction        0x08000055   0x74  Code  Gb  app-bootloader-custom.o [1]
+bootloaderEntryPoint    0x08001135   0x9a  Code  Gb  cstartup-iar-boot.o [1]
+checkAppJumpToApp       0x080010cd   0x66  Code  Gb  cstartup-iar-boot.o [1]
+crcAndFinalizeImage     0x08000be7   0xc4  Code  Lc  ebl.o [3]
+crcFlash                0x08000b65   0x26  Code  Lc  ebl.o [3]
+crcMem                  0x08000b8b   0x1c  Code  Lc  ebl.o [3]
+cstackMemory            0x20000000  0x400  Data  Gb  cstartup-iar-boot.o [1]
+doEraseCmd              0x08000805   0x2e  Code  Lc  spiflash-class1.o [1]
+eblDataEepromFinalize   0x080001cb    0x4  Code  Gb  app-bootloader.o [3]
+eblDataFuncs            0x08000360    0x8  Data  Gb  app-bootloader.o [3]
+eblFlashFuncs           0x08000354    0xc  Data  Gb  app-bootloader.o [3]
+eblGetEepromData        0x08000179   0x52  Code  Gb  app-bootloader.o [3]
+eblProcess              0x08000ead   0x3e  Code  Gb  ebl.o [3]
+eblProcessInit          0x08000bcf   0x18  Code  Gb  ebl.o [3]
+eblProcessTag           0x08000cab  0x1ee  Code  Gb  ebl.o [3]
+eblTagBuf               0x20000408  0x820  Data  Gb  app-bootloader.o [3]
+eeprom_addr             0x20000cac    0x4  Data  Lc  app-bootloader.o [3]
+eeprom_capabilities     0x20000ca8    0x2  Data  Lc  app-bootloader.o [3]
+eeprom_erasedAddr       0x20000cb0    0x4  Data  Lc  app-bootloader.o [3]
+eeprom_pagesize         0x20000cb4    0x4  Data  Lc  app-bootloader.o [3]
+fastXtalStartup         0x20000400    0x1  Data  Gb  clocks.o [3]
+fibToEmberStatus        0x08001490    0x8  Data  Lc  flash.o [3]
+flashEraseIsActive      0x20000cbc    0x1  Data  Gb  flash.o [3]
+flashRead               0x08000169    0x4  Code  Gb  app-bootloader.o [3]
+getData                 0x08000ba7   0x28  Code  Lc  ebl.o [3]
+getDeviceSize           0x08000689   0x4a  Code  Lc  spiflash-class1.o [1]
+getNextXModemBlock      0x08000a99   0xc0  Code  Gb  xmodem.o [3]
+getSingleXmodemBlock    0x080009cf   0xca  Code  Lc  xmodem.o [3]
+halAppAddressTable      0x08002000   0xac  Data  Gb  cstartup-iar-boot.o [1]
+halBootloaderAddressTable
+                        0x08000000   0x54  Data  Gb  cstartup-iar-boot.o [1]
+halClearLed             0x0800052d   0x18  Code  Gb  led.o [1]
+halCommonCrc16          0x080012b9   0x24  Code  Gb  crc.o [1]
+halCommonCrc32          0x080012dd   0x1c  Code  Gb  crc.o [1]
+halCommonDelayMicroseconds
+                        0x08001205   0x36  Code  Gb  micro-common-internal.o [3]
+halCommonMemCompare     0x08001397   0x1c  Code  Gb  mem-util.o [1]
+halCommonMemCopy        0x08001365   0x32  Code  Gb  mem-util.o [1]
+halCommonSwitchToXtal   0x08001063    0x4  Code  Gb  clocks.o [3]
+halCommonTryToSwitchToXtal
+                        0x08000f51   0xf6  Code  Gb  clocks.o [3]
+halEepromBusy           0x08000657   0x2a  Code  Gb  spiflash-class1.o [1]
+halEepromErase          0x08000845   0xb2  Code  Gb  spiflash-class1.o [1]
+halEepromInfo           0x08000647   0x10  Code  Gb  spiflash-class1.o [1]
+halEepromInit           0x080005e1   0x48  Code  Gb  spiflash-class1.o [1]
+halEepromRead           0x080006ef   0x40  Code  Gb  spiflash-class1.o [1]
+halEepromShutdown       0x08000629   0x1e  Code  Gb  spiflash-class1.o [1]
+halEepromWrite          0x0800072f   0xbe  Code  Gb  spiflash-class1.o [1]
+halEntryPoint           0x080013d3         Code  Gb  cstartup-iar-boot-entry.o [1]
+halFixedAddressTable    0x08040000   0x2c  Data  Gb  cstartup-iar-boot.o [1]
+halGetExtendedResetInfo
+                        0x080010bf    0x6  Code  Gb  cstartup-iar-boot.o [1]
+halGpioConfig           0x080004c9   0x24  Code  Gb  micro-common.o [1]
+halInternalConfigFlashAccess
+                        0x08000eed    0x2  Code  Gb  clocks.o [3]
+halInternalEnableWatchDog
+                        0x080004b3    0xe  Code  Gb  micro-common.o [1]
+halInternalFlashErase   0x0800140d   0x3c  Code  Gb  flash.o [3]
+halInternalFlashWrite   0x08001449   0x3c  Code  Gb  flash.o [3]
+halInternalGetMfgTokenData
+                        0x080012fd   0x5c  Code  Gb  mfg-token.o [1]
+halInternalResetWatchDog
+                        0x080004c1    0x2  Code  Gb  micro-common.o [1]
+halInternalSwitchToXtal
+                        0x08001047   0x1c  Code  Lc  clocks.o [3]
+halInternalSwitchToXtal24M
+                        0x08000f37    0xe  Code  Lc  clocks.o [3]
+halInternalSysReset     0x08000369   0x38  Code  Gb  micro-internal.o [3]
+halInternalUartSetBaudRate
+                        0x0800123b   0x6e  Code  Gb  micro-common-internal.o [3]
+halMcuClockKHz          0x08000499   0x10  Code  Gb  micro-common.o [1]
+halNmiHardFaultIsr      0x080010b5    0x2  Code  Gb  cstartup-iar-boot.o [1]
+halPeripheralClockKHz   0x080004a9    0xa  Code  Gb  micro-common.o [1]
+halResetInfo            0x20000000   0x98  Data  Gb  cstartup-iar-boot.o [1]
+halSetLed               0x08000515   0x18  Code  Gb  led.o [1]
+halSpiPop8              0x0800057d    0xe  Code  Lc  spiflash-class1.o [1]
+halSpiPopN8             0x0800058b   0x16  Code  Lc  spiflash-class1.o [1]
+halSpiPush24MSB         0x080005a1   0x1c  Code  Lc  spiflash-class1.o [1]
+halSpiPush8             0x08000571    0xc  Code  Lc  spiflash-class1.o [1]
+halSpiRead8             0x080005c1    0x4  Code  Lc  spiflash-class1.o [1]
+halSpiWrite8            0x080005bd    0x4  Code  Lc  spiflash-class1.o [1]
+halSysTickIsr           0x08001067   0x2e  Code  Gb  clocks.o [3]
+halSystemClockEnableCallback
+                        0x08000f4d    0x4  Code  Wk  clocks.o [3]
+halSystemClockKHz       0x08000485   0x14  Code  Gb  micro-common.o [1]
+halSystemXtalKHz        0x080014a6    0x2  Data  Gb  micro-common.o [1]
+halToggleLed            0x08000545   0x1e  Code  Gb  led.o [1]
+initEepromState         0x0800016d    0xc  Code  Gb  app-bootloader.o [3]
+initXModemState         0x08000911   0x30  Code  Gb  xmodem.o [3]
+macronix2MInfo          0x080008f8   0x18  Data  Lc  spiflash-class1.o [1]
+main                    0x08000305   0x4e  Code  Gb  app-bootloader.o [3]
+nullEui                 0x0800135c    0x8  Data  Lc  mfg-token.o [1]
+previousLoValue         0x20000403    0x1  Data  Gb  clocks.o [3]
+processImage            0x080002bb   0x42  Code  Gb  app-bootloader.o [3]
+rdBuf                   0x20000c28   0x80  Data  Lc  app-bootloader.o [3]
+recoveryMode            0x080001e1   0xda  Code  Gb  app-bootloader.o [3]
+savedResetCause         0x20000cba    0x2  Data  Lc  cstartup-iar-boot.o [1]
+scheduleHalSysTickIsrMicroseconds
+                        0x08000eef   0x48  Code  Lc  clocks.o [3]
+sendMessage             0x080001cf   0x12  Code  Gb  app-bootloader.o [3]
+serCharAvailable        0x0800043f   0x10  Code  Gb  bootloader-uart.o [1]
+serGetChar              0x0800044f   0x18  Code  Gb  bootloader-uart.o [1]
+serGetFlush             0x08000475    0xe  Code  Gb  bootloader-uart.o [1]
+serInit                 0x080003c1   0x2a  Code  Gb  bootloader-uart.o [1]
+serPutChar              0x080003f5    0xc  Code  Gb  bootloader-uart.o [1]
+serPutFlush             0x080003eb    0xa  Code  Gb  bootloader-uart.o [1]
+serPutHex               0x08000417   0x28  Code  Gb  bootloader-uart.o [1]
+serPutStr               0x08000401   0x16  Code  Gb  bootloader-uart.o [1]
+setStackPointer         0x080010b9    0x6  Code  Gb  cstartup-iar-boot.o [1]
+setWEL                  0x080005cf   0x12  Code  Lc  spiflash-class1.o [1]
+verifyAddressRange      0x080006d3   0x1c  Code  Lc  spiflash-class1.o [1]
+verifyFib               0x080013e9   0x24  Code  Lc  flash.o [3]
+waitChar                0x08000941   0x60  Code  Lc  xmodem.o [3]
+wakeupXtalState         0x20000402    0x1  Data  Gb  clocks.o [3]
+xmodemCancel            0x080009a9   0x1c  Code  Gb  xmodem.o [3]
+xtalUnstable            0x20000401    0x1  Data  Gb  clocks.o [3]
+
+
+[1] = D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control
+[2] = command line
+[3] = app-bootloader-library.a
+[4] = dl7M_tln.a
+[5] = rt7M_tl.a
+
+  5 188 bytes of readonly  code memory
+    108 bytes of readonly  data memory
+  3 475 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

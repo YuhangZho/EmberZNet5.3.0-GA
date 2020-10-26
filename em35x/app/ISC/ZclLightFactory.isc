@@ -1,0 +1,814 @@
+#ISD App Configuration:3.1
+# ISD version: 3.3.1884
+#  Identified of a stack descriptor used for this configuration. This should not
+#  be changed manually, unless you really know what you are doing.
+ConfiguratorID:auto-EM35X
+
+#  Output directory which is used as a root for all generated files. The actual
+#  files relative to that directory are defined by individual file name.
+GenerationDirectory:PATH(ABSOLUTE):D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\.
+
+#  Unique identifier for this device. This string should be in a form of a C
+#  identifier, as it will be used in both generated variable, macros, as well as
+#  file names. You should generally not use characters which are not valid
+#  characters in a C identifier here.
+DeviceName:ZclLihgtFactory
+
+#  Type of the endpoint. Each endpoint implement one endpoint type. There can be
+#  one or more endpoint types, regardless of number of actual endpoints.
+EndpointType:Primary,-1
+
+#  The ZCL device that this particular endpoint is implementing.
+DeviceType:Primary,zcustom
+
+#  Overrides a particular client configuration. This happens when you have
+#  chosen to include/exclude a client cluster that is optional. Contains
+#  'clusterId', 'exclude/include' and the endpoint type name.
+OverrideClient:0,include,Primary
+
+OverrideClient:1,exclude,Primary
+
+OverrideClient:2,exclude,Primary
+
+OverrideClient:3,include,Primary
+
+OverrideClient:4,exclude,Primary
+
+OverrideClient:5,exclude,Primary
+
+OverrideClient:6,include,Primary
+
+OverrideClient:7,exclude,Primary
+
+OverrideClient:8,include,Primary
+
+OverrideClient:9,exclude,Primary
+
+OverrideClient:a,exclude,Primary
+
+OverrideClient:b,exclude,Primary
+
+OverrideClient:f,exclude,Primary
+
+OverrideClient:15,exclude,Primary
+
+OverrideClient:16,exclude,Primary
+
+OverrideClient:19,exclude,Primary
+
+OverrideClient:1a,exclude,Primary
+
+OverrideClient:1b,exclude,Primary
+
+OverrideClient:20,exclude,Primary
+
+OverrideClient:100,exclude,Primary
+
+OverrideClient:101,exclude,Primary
+
+OverrideClient:102,exclude,Primary
+
+OverrideClient:200,exclude,Primary
+
+OverrideClient:201,exclude,Primary
+
+OverrideClient:202,exclude,Primary
+
+OverrideClient:203,exclude,Primary
+
+OverrideClient:204,exclude,Primary
+
+OverrideClient:300,include,Primary
+
+OverrideClient:301,exclude,Primary
+
+OverrideClient:400,exclude,Primary
+
+OverrideClient:401,exclude,Primary
+
+OverrideClient:402,exclude,Primary
+
+OverrideClient:403,exclude,Primary
+
+OverrideClient:404,exclude,Primary
+
+OverrideClient:405,exclude,Primary
+
+OverrideClient:406,exclude,Primary
+
+OverrideClient:500,exclude,Primary
+
+OverrideClient:501,exclude,Primary
+
+OverrideClient:502,exclude,Primary
+
+OverrideClient:600,exclude,Primary
+
+OverrideClient:601,exclude,Primary
+
+OverrideClient:614,exclude,Primary
+
+OverrideClient:615,exclude,Primary
+
+OverrideClient:700,exclude,Primary
+
+OverrideClient:701,exclude,Primary
+
+OverrideClient:702,exclude,Primary
+
+OverrideClient:703,exclude,Primary
+
+OverrideClient:704,exclude,Primary
+
+OverrideClient:705,exclude,Primary
+
+OverrideClient:706,exclude,Primary
+
+OverrideClient:707,exclude,Primary
+
+OverrideClient:708,exclude,Primary
+
+OverrideClient:709,exclude,Primary
+
+OverrideClient:70a,exclude,Primary
+
+OverrideClient:800,exclude,Primary
+
+OverrideClient:900,exclude,Primary
+
+OverrideClient:901,exclude,Primary
+
+OverrideClient:902,exclude,Primary
+
+OverrideClient:903,exclude,Primary
+
+OverrideClient:904,exclude,Primary
+
+OverrideClient:905,exclude,Primary
+
+OverrideClient:a01,exclude,Primary
+
+OverrideClient:a02,exclude,Primary
+
+OverrideClient:b00,exclude,Primary
+
+OverrideClient:b01,exclude,Primary
+
+OverrideClient:b02,exclude,Primary
+
+OverrideClient:b03,exclude,Primary
+
+OverrideClient:b04,exclude,Primary
+
+OverrideClient:b05,include,Primary
+
+OverrideClient:1000,exclude,Primary
+
+OverrideClient:fc00,exclude,Primary
+
+OverrideClient:fc01,exclude,Primary
+
+OverrideClient:fc03,exclude,Primary
+
+#  Overrides a particular server configuration. This happens when you have
+#  chosen to include/exclude a server cluster that is optional. Contains
+#  'clusterId', 'exclude/include' and the endpoint type name.
+OverrideServer:0,include,Primary
+
+OverrideServer:1,exclude,Primary
+
+OverrideServer:2,exclude,Primary
+
+OverrideServer:3,include,Primary
+
+OverrideServer:4,exclude,Primary
+
+OverrideServer:5,exclude,Primary
+
+OverrideServer:6,exclude,Primary
+
+OverrideServer:7,exclude,Primary
+
+OverrideServer:8,exclude,Primary
+
+OverrideServer:9,exclude,Primary
+
+OverrideServer:a,exclude,Primary
+
+OverrideServer:b,exclude,Primary
+
+OverrideServer:f,exclude,Primary
+
+OverrideServer:15,exclude,Primary
+
+OverrideServer:16,exclude,Primary
+
+OverrideServer:19,exclude,Primary
+
+OverrideServer:1a,exclude,Primary
+
+OverrideServer:1b,exclude,Primary
+
+OverrideServer:20,exclude,Primary
+
+OverrideServer:100,exclude,Primary
+
+OverrideServer:101,exclude,Primary
+
+OverrideServer:102,exclude,Primary
+
+OverrideServer:200,exclude,Primary
+
+OverrideServer:201,exclude,Primary
+
+OverrideServer:202,exclude,Primary
+
+OverrideServer:203,exclude,Primary
+
+OverrideServer:204,exclude,Primary
+
+OverrideServer:300,exclude,Primary
+
+OverrideServer:301,exclude,Primary
+
+OverrideServer:400,exclude,Primary
+
+OverrideServer:401,exclude,Primary
+
+OverrideServer:402,exclude,Primary
+
+OverrideServer:403,exclude,Primary
+
+OverrideServer:404,exclude,Primary
+
+OverrideServer:405,exclude,Primary
+
+OverrideServer:406,exclude,Primary
+
+OverrideServer:500,exclude,Primary
+
+OverrideServer:501,exclude,Primary
+
+OverrideServer:502,exclude,Primary
+
+OverrideServer:600,exclude,Primary
+
+OverrideServer:601,exclude,Primary
+
+OverrideServer:614,exclude,Primary
+
+OverrideServer:615,exclude,Primary
+
+OverrideServer:700,exclude,Primary
+
+OverrideServer:701,exclude,Primary
+
+OverrideServer:702,exclude,Primary
+
+OverrideServer:703,exclude,Primary
+
+OverrideServer:704,exclude,Primary
+
+OverrideServer:705,exclude,Primary
+
+OverrideServer:706,exclude,Primary
+
+OverrideServer:707,exclude,Primary
+
+OverrideServer:708,exclude,Primary
+
+OverrideServer:709,exclude,Primary
+
+OverrideServer:70a,exclude,Primary
+
+OverrideServer:800,exclude,Primary
+
+OverrideServer:900,exclude,Primary
+
+OverrideServer:901,exclude,Primary
+
+OverrideServer:902,exclude,Primary
+
+OverrideServer:903,exclude,Primary
+
+OverrideServer:904,exclude,Primary
+
+OverrideServer:905,exclude,Primary
+
+OverrideServer:a01,exclude,Primary
+
+OverrideServer:a02,exclude,Primary
+
+OverrideServer:b00,exclude,Primary
+
+OverrideServer:b01,exclude,Primary
+
+OverrideServer:b02,exclude,Primary
+
+OverrideServer:b03,exclude,Primary
+
+OverrideServer:b04,exclude,Primary
+
+OverrideServer:b05,exclude,Primary
+
+OverrideServer:1000,exclude,Primary
+
+OverrideServer:fc00,exclude,Primary
+
+OverrideServer:fc01,exclude,Primary
+
+OverrideServer:fc02,include,Primary
+
+OverrideServer:fc03,include,Primary
+
+#  ZigBee PRO network configuration.  Each endpoint belongs to a single network
+#  configuration.  There can be one or more network configurations.
+ZigbeeProNetwork:*Primary,ZA_END_DEVICE,HA
+
+#  A list of optional outgoing commands that are included in the configuration.
+OptionalOutgoingCommands:0,0,CLIENT_TO_SERVER,0:768,10,CLIENT_TO_SERVER,0:768,71,CLIENT_TO_SERVER,0:768,75,CLIENT_TO_SERVER,0:768,76,CLIENT_TO_SERVER,0
+
+#  A list of optional attributes that are included in this configuration. Format
+#  is a list of "clusterId,attributeId,<server|client>,manufacturerCode"
+#  entries, separated by semicolon.
+OptionalAttributes:64515,0,server,4448
+
+#  A path, relative to the root of the stack which indicates where to find a
+#  custom token header. This file will be included in the frameworks main token
+#  header located at app/framework/util/tokens.h
+TokenPath:
+
+#  Lists the channels that this application will be configured to use.
+Channels:11
+
+#  Definitions of individual endpoints. For each endpoint the endpoint number
+#  (1-254) is listed, as well as the endpoint type that this endpoint will
+#  serve.
+ConfiguredEndpoints:*1&260&7&0&Primary&Primary
+
+#  A single specification version for each profile defining the max version of
+#  the spec supported by this configuration.
+SpecVersions:
+
+#  In case of a network coprocessor, this lists a host processor used.
+Host:unknown
+
+#  Ember network processor targeted for this application.
+Platform:em357
+
+#  Enable callbacks.
+Callbacks:,
+
+#  If bindings are enabled then this is the maximum number of supported
+#  bindings.
+NumberOfBindings:16
+
+#  The size of the stack address table which will be used by the stack to
+#  maintain IEEE to ZigBee short id mappings.
+AddressTableSize:2
+
+#  The size of the portion of the address table used by the trust center as an
+#  address cache. The total size of the address table will be equal to this
+#  value plus the size of the address table set in the AddressTableSize.
+TrustCenterCacheSize:2
+
+#  Manufacturing code user in reporting.
+ManufacturingCode:4448
+
+#  Maximum number of supported reported attributes.
+ReportTableSize:5
+
+#  The mode of the link key handling on a trust center.
+LinkKeyMode:2
+
+#  If not using multiple endpoint support, this value contains the default
+#  endpoint. With multiple endpoint support, this number is ignored.
+Endpoint:10
+
+#  Version of this device.
+DeviceVersion:0
+
+#  Master endpoint which contains global information.
+DefaultDestinationEndpoint:10
+
+#  Profile Id used for the application.
+ProfileId:-1
+
+#  Device Id used for the application.
+DeviceId:-1
+
+#  The largest size for a fragment buffer.
+FragmentationMaxSize:255
+
+#  Size of the table for source routing.
+SourceRouteTableSize:7
+
+#  Default response policy.
+DefaultResponsePolicy:2
+
+#  The level of debugging supported.
+DebugLevel:2
+
+#  Configuration of command-line interface.
+CLIMode:2
+
+#  Configuration of heartbeat.
+HeartbeatLed:2
+
+#  If this option is set to true, standard reporting is enabled.
+EnableStandardReporting:false
+
+#  If the device needs to perform inter-PAN sends, then this option should be
+#  enabled.
+EnableInterPanSend:false
+
+#  If the device needs to perform inter-PAN receives, then this option should be
+#  enabled.
+EnableInterPanReceive:false
+
+#  Enable serial commands for ZDO.
+EnableZdoSerialCommands:false
+
+#  Enable this option if you wish to enable device bindings.
+EnableBindings:true
+
+#  Turn this option on, if end-device binding is enabled.
+EnableEndDeviceBind:true
+
+#  Enables the statistics receiving.
+EnableReceiveStatistics:false
+
+#  If true, then command discovery commands are supported.
+SupportCommandDiscovery:true
+
+#  Selects whether application will use the ECC 163k1 library.
+UseEcc163k1:false
+
+#  Selects whether application will use the ECC 283k1 library.
+UseEcc283k1:false
+
+#  Enable preconfigured keys for security.
+PreconfiguredKeyEnabled:false
+
+#  Enable network key.
+NetworkKeyEnabled:false
+
+#  If this option is turned on, then appBuilder will automatically generate the
+#  files, immediately upon saving the ISC file.
+AutoGenerate:false
+
+#  Enable key switching.
+EnableKeySwitch:false
+
+#  Use this setting to turn on fragmentation.
+FragmentationEnable:false
+
+#  Enables concentrator support
+EnableConcentrator:true
+
+#  If true, then this concentrator is low ram, otherwise high ram
+LowRamConcentrator:true
+
+#  If this option is set to true, then MFG_INSTALL_CODE token is used for
+#  setting the security install code.
+UseSeInstallCodes:false
+
+#  If this option is turned on, then the code will enable the checking of the
+#  attributes.
+EnableAttributeRangeChecking:false
+
+#  Enable application handling of supported ZigBee Device Object messages.
+ReceiveSupportedZdoRequests:false
+
+#  Enable application handling of unsupported ZigBee Device Object messages.
+HandleUnsupportedZdoRequests:false
+
+#  Enable application handling of ZigBee Device Object requests related to
+#  endpoints.
+HandleEndpointZdoRequests:false
+
+#  Enable application handling of ZigBee Device Object requests related to
+#  bindings.
+HandleBindingZdoRequests:false
+
+#  Use token for TX power mode.
+TxPowerModeUseToken:false
+
+#  Enable boost power mode.
+BoostMode:true
+
+#  Enable the alternate transmitter output.
+AlternatePowerMode:false
+
+#  Use legacy CLI instead of generated CLI.
+LegacyCli:false
+
+#  Add Custom CLI sub-menu
+AddCustomCli:false
+
+#  Include command and argument descriptions in the embedded code.
+IncludeCommandDescriptions:true
+
+#  If set, then project-specific callbacks file will be generated.
+GenerateCallbacksFile:true
+
+#  Actual preconfigured key, if it is enabled.
+PreconfiguredKey:56777777777777777777777777777777
+
+#  Actual network key.
+NetworkKey:12333333333333333333333333333333
+
+#  Actual second network key.
+NetworkKey2:ABCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+
+# Setup configurations
+{setupId:additionalFiles
+}
+{setupId:boardHeader
+}
+{setupId:bootloader
+em357=null,
+}
+{setupId:debugConfiguration
+on
+area name off
+appSerial=1
+compile,CUSTOM1
+compile,DEBUG
+compile,ZDO
+enable,DEBUG
+}
+{setupId:halOptions
+}
+{setupId:information
+\{key:description
+
+\}
+}
+{setupId:macros
+-DSENGLED_COR=1
+}
+{setupId:rf4ce
+nodeCapabilities=0
+vendorId=65521
+vendorString=
+userString=
+deviceTypes=[254]
+profileIds=[0]
+power=3
+}
+{setupId:rf4ceMso
+}
+{setupId:rf4ceZrc
+}
+{setupId:serial
+em357=*0,true,*,*,*,*,*,1,false,*,*,*,*,*
+}
+#  The name of the set of Command Line Interface (CLI) commands that are
+#  compiled into the application by default.
+CliCommandSet:Full
+
+#  These are the various Command Line Interface (CLI) commands that can be
+#  included, or excluded (if they are included by default), in the application.
+#  Plugin configuration
+appPlugin:address-table,true
+
+appPlugin:basic,true
+
+appPlugin:button-joining,false
+
+appPlugin:color-control,false
+
+appPlugin:concentrator,false
+
+appPlugin:counters,true
+
+appPlugin:device-management-server,false
+
+appPlugin:diagnostic-server,false
+
+appPlugin:door-lock-server,false
+
+appPlugin:drlc,false
+
+appPlugin:drlc-server,false
+
+appPlugin:eeprom,false
+
+appPlugin:end-device-support,true
+
+appPlugin:esi-management,false
+
+appPlugin:ezmode-commissioning,false
+
+appPlugin:fragmentation,false
+
+appPlugin:gateway,false
+
+appPlugin:gateway-app,false
+
+appPlugin:general-response-commands,false
+
+appPlugin:groups-client,false
+
+appPlugin:groups-server,false
+
+appPlugin:hc-11073-tunnel,false
+
+appPlugin:ias-zone-client,false
+
+appPlugin:ias-zone-server,false
+
+appPlugin:IcontrolDimmableLampApp,false
+
+appPlugin:identify,true
+
+appPlugin:identify-feedback,true
+
+appPlugin:idle-sleep,true
+
+appPlugin:interpan,false
+
+appPlugin:key-establishment,false
+
+appPlugin:level-control,false
+
+appPlugin:messaging-client,false
+
+appPlugin:messaging-server,false
+
+appPlugin:meter-mirror,false
+
+appPlugin:meter-snapshot-server,false
+
+appPlugin:meter-snapshot-storage,false
+
+appPlugin:mn-price-passthrough,false
+
+appPlugin:network-find,true
+
+appPlugin:on-off,false
+
+appPlugin:ota-bootload,false
+
+appPlugin:ota-client,false
+
+appPlugin:ota-client-policy,false
+
+appPlugin:ota-common,false
+
+appPlugin:ota-server,false
+
+appPlugin:ota-server-policy,false
+
+appPlugin:ota-storage-common,false
+
+appPlugin:ota-storage-custom,false
+
+appPlugin:ota-storage-custom-eeprom,false
+
+appPlugin:ota-storage-posix-filesystem,false
+
+appPlugin:ota-storage-simple,false
+
+appPlugin:ota-storage-simple-eeprom,false
+
+appPlugin:ota-storage-simple-ram,false
+
+appPlugin:partner-link-key-exchange,false
+
+appPlugin:poll-control-client,false
+
+appPlugin:poll-control-server,false
+
+appPlugin:price-client,false
+
+appPlugin:price-server,false
+
+appPlugin:pwm-control,false
+
+appPlugin:reporting,false
+
+appPlugin:scenes,false
+
+appPlugin:scenes-client,false
+
+appPlugin:sengled-debug-ZC,false
+
+appPlugin:sengled-ha-cli,false
+
+appPlugin:sengled-ha-common,false
+
+appPlugin:sengled-ha-common-B815,false
+
+appPlugin:sengled-ha-common-Downlight,false
+
+appPlugin:sengled-ha-common-Highbay,false
+
+appPlugin:sengled-ha-common-Plugbase,false
+
+appPlugin:sengled-ha-common-TrackLight,false
+
+appPlugin:sengled-ha-ezmode,false
+
+appPlugin:sengled-ha-ezmode-Plugbase,false
+
+appPlugin:sengled-ha-gateway,false
+
+appPlugin:sengled-ha-network-B815,false
+
+appPlugin:sengled-ha-network-Downlight,false
+
+appPlugin:sengled-ha-network-Highbay,false
+
+appPlugin:sengled-ha-network-Plugbase,false
+
+appPlugin:sengled-ha-network-TrackLight,false
+
+appPlugin:sengled-ha-switch,false
+
+appPlugin:sengled-hardware-A19EUE27,false
+
+appPlugin:sengled-hardware-B815,false
+
+appPlugin:sengled-hardware-Downlight,false
+
+appPlugin:sengled-hardware-Highbay,false
+
+appPlugin:sengled-hardware-Plugbase,false
+
+appPlugin:sengled-hardware-TrackLight,false
+
+appPlugin:simple-clock,false
+
+appPlugin:simple-metering-client,false
+
+appPlugin:simple-metering-server,false
+
+appPlugin:smart-energy-registration,false
+
+appPlugin:stack-diagnostics,false
+
+appPlugin:standalone-bootloader-client,false
+
+appPlugin:standalone-bootloader-common,false
+
+appPlugin:standalone-bootloader-server,false
+
+appPlugin:test-harness,false
+
+appPlugin:test-z01-gateway,false
+
+appPlugin:time-server,false
+
+appPlugin:tou-calendar-client,false
+
+appPlugin:tou-calendar-common,false
+
+appPlugin:tou-calendar-server,false
+
+appPlugin:trust-center-backup,false
+
+appPlugin:trust-center-join-decision,false
+
+appPlugin:trust-center-keepalive,false
+
+appPlugin:trust-center-nwk-key-update-broadcast,false
+
+appPlugin:trust-center-nwk-key-update-periodic,false
+
+appPlugin:trust-center-nwk-key-update-unicast,false
+
+appPlugin:tunneling-client,false
+
+appPlugin:tunneling-server,false
+
+appPlugin:xmodem-sender,false
+
+appPlugin:z01-a19-gateway-app,false
+
+appPlugin:z01-a19-hv2-app,false
+
+appPlugin:z01-a19eue27-app,false
+
+appPlugin:z02-gateway-app,false
+
+appPlugin:z03-gateway-app,false
+
+appPlugin:zll-commissioning,false
+
+appPlugin:zll-identify-server,false
+
+appPlugin:zll-level-control-server,false
+
+appPlugin:zll-on-off-server,false
+
+appPlugin:zll-scenes-client,false
+
+appPlugin:zll-scenes-server,false
+
+appPlugin:zll-utility-client,false
+
+appPlugin:zll-utility-server,false
+

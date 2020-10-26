@@ -1,0 +1,22 @@
+image-builder Copyright 2013 Silicon Laboratories, Inc.
+Version: 1.5.1
+ECC signature support NOT present.
+
+EBL file integrity 'Highbay.ebl': OK
+
+File: E:\Robin-Workspace\Project\Zigbee\EU-Router\Ember\EmberZNet5.3.0-GA\em35x\build\Highbay\Highbay.ota
+Magic Number:         0x0BEEF11E
+Header Version:       0x0100
+Header Length:        56 bytes
+Field Control:        0x0000
+Manufacturer ID:      0x1160
+Image Type:           0x0002
+Firmware Version:     0x00000012
+Stack Version:        0x0002
+Header String:        EBL Highbay
+Total Image Size:     127166 bytes
+Total Tags:           1
+  ID:                 0x0000   (Upgrade Image)
+  Length:             127104 bytes
+
+

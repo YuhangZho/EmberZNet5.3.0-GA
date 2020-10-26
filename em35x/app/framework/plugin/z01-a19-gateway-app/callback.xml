@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<callback prefix="emberAf" postfix="Callback">
+  <function id="MAKE_JOIN_DECISION" name="Make Join Decision" returnType="boolean">
+    <description>
+      This callback is fired when a device attempts to join the network, and asks if you would like to allow it to join or not. Return TRUE to allow node to join the network.
+    </description>
+    <arg name="nodeId" type="EmberNodeId"/>
+	<arg name="nodeEUI64" type="EmberEUI64"/>
+    <codeForStub>
+	  return TRUE;
+    </codeForStub>
+  </function>
+</callback>

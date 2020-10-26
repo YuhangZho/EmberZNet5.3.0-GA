@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<cli>
+  <group id="plugin-sengled-ha-switch" name="Plugin Commands: sengled-ha-switch">
+    <description>
+      sengled-ha-switch test cli command
+    </description>
+  </group>
+  <command cli="plugin sengled-ha-switch switchOn" functionName="sengledHaCliSwitchOn" group="plugin-sengled-ha-switch">
+    <description>
+      Switch On
+    </description>
+    <arg name="value" type="INT16U" description="switch On value" />
+  </command>
+</cli>

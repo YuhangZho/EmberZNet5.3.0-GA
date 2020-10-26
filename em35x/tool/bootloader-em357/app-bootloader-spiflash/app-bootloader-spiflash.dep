@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3734214816</fileChecksum>
+  <configuration>
+    <name>Normal</name>
+    <outputs>
+      <file>$PROJ_DIR$\Normal\Obj\app-bootloader-custom.pbi</file>
+      <file>$PROJ_DIR$\Normal\Obj\crc.pbi</file>
+      <file>$PROJ_DIR$\Normal\Obj\bootloader-gpio.pbi</file>
+      <file>$PROJ_DIR$\Normal\Exe\app-bootloader-spiflash.s37</file>
+      <file>$PROJ_DIR$\Normal\Obj\app-bootloader-spiflash.pbd</file>
+      <file>$PROJ_DIR$\Normal\Exe\app-bootloader-spiflash.out</file>
+      <file>$PROJ_DIR$\Normal\Obj\bootloader-uart.pbi</file>
+      <file>$PROJ_DIR$\Normal\Obj\isr-stubs.o</file>
+      <file>$PROJ_DIR$\Normal\Obj\cstartup-iar-boot-entry.o</file>
+      <file>$PROJ_DIR$\Normal\Obj\spiflash-class1.o</file>
+      <file>$PROJ_DIR$\Normal\Obj\random.o</file>
+      <file>$PROJ_DIR$\Normal\Obj\micro-common.o</file>
+      <file>$PROJ_DIR$\Normal\Obj\mfg-token.o</file>
+      <file>$PROJ_DIR$\Normal\Obj\mem-util.o</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\em357\..\..\loader\flashloader\iar-cfg-flashloader.icf</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\em357\..\..\iar-cfg-common.icf</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\memmap.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\mpu.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\em357\..\..\bootloader\iar-cfg-boot.icf</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\em357\..\..\iar-cfg-common-ramexe.icf</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\em357\..\..\bootloader\iar-cfg-fib.icf</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\em357\mpu-config.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\mpu-config.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\diagnostic.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\zll-types.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\micro-types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\generic\em2xx-reset-defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\aes-mmo.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\regs.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\micro-features.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\message.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\stack-info.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\trust-center.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\reset-def.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\nvic-config.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\micro-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\binding-table.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\ember.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\packet-buffer.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\network-formation.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\ember-types.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\child.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\em357\regs.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\raw-message.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\security.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\micro-common.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\generic\compiler\platform-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\micro.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\em357\micro-features.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\micro.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\em357\regs-internal.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\config\ember-configuration-defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\rf4ce-types.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\ember-static-struct.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\symbol-timer.h</file>
+      <file>$PROJ_DIR$\Normal\Obj\led.o</file>
+      <file>$PROJ_DIR$\Normal\Obj\cstartup-iar-boot.o</file>
+      <file>$PROJ_DIR$\Normal\Obj\crc.o</file>
+      <file>$PROJ_DIR$\Normal\Obj\bootloader-uart.o</file>
+      <file>$PROJ_DIR$\Normal\Obj\bootloader-gpio.o</file>
+      <file>$PROJ_DIR$\Normal\Obj\spiflash-class1.pbi</file>
+      <file>$PROJ_DIR$\Normal\Obj\random.pbi</file>
+      <file>$PROJ_DIR$\Normal\Obj\mfg-token.pbi</file>
+      <file>$PROJ_DIR$\Normal\Obj\mem-util.pbi</file>
+      <file>$PROJ_DIR$\Normal\Obj\micro-common.pbi</file>
+      <file>$PROJ_DIR$\Normal\Obj\led.pbi</file>
+      <file>$PROJ_DIR$\Normal\Obj\cstartup-iar-boot.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\spiflash-class1.lst</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\app-bootloader-spiflash.s37</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\flash.h</file>
+      <file>$PROJ_DIR$\Normal\List\cstartup-iar-boot-entry.lst</file>
+      <file>$TOOLKIT_DIR$\config\generic_cortex.icf</file>
+      <file>$PROJ_DIR$\Normal\List\isr-stubs.lst</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\em357\iar-cfg.icf</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\bootloader-serial.h</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\bootloader-uart.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\mem-util.lst</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\random.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\crc.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\bootloader-gpio.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\crc.lst</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\mem-util.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\led.lst</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\spiflash-class1.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\led.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\spiflash-class1.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\random.lst</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\micro-common.lst</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\led.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\cstartup-iar-boot-entry.lst</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\crc.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\bootloader-gpio.lst</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\mfg-token.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\app-bootloader-custom.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\mfg-token.h</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\mfg-token.lst</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\micro-common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\bootloader-gpio.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\random.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\fib-bootloader.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\cstartup-iar-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\bootloader-configuration.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\em357\memmap.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\memmap-tables.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\ebl.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\bootloader-ccm.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\memmap-fat.h</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\cstartup-iar-boot.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\bootloader-gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\mem-util.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\app-bootloader.h</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\app-bootloader-custom.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\cstartup-iar-boot-entry.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\app-bootloader-spiflash.out</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\isr-stubs.o</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\bootloader-common.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\cstartup-iar-boot.lst</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\cstartup-iar-boot.o</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\bootloader-gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-library-cortexm3-iarboot-em357-null\app-bootloader-library.a</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\app-bootloader-custom.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\crc.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\endian.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\bootloader-interface-standalone.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\error-def.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\rf4ce-api.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\config\config.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\multi-network.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\zll-api.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\ember-debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\library.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\event.h</file>
+      <file>$PROJ_DIR$\Normal\List\mfg-token.lst</file>
+      <file>$PROJ_DIR$\Normal\List\led.lst</file>
+      <file>$PROJ_DIR$\Normal\List\bootloader-uart.lst</file>
+      <file>$PROJ_DIR$\Normal\List\cstartup-iar-boot.lst</file>
+      <file>$PROJ_DIR$\Normal\List\mem-util.lst</file>
+      <file>$PROJ_DIR$\Normal\List\app-bootloader-custom.lst</file>
+      <file>$PROJ_DIR$\Normal\List\random.lst</file>
+      <file>$PROJ_DIR$\Normal\List\crc.lst</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\button.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\token.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\zll\zll-token-config.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\token-manufacturing.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\config\token-stack.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\config\token-phy.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\spi.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\diagnostic.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\zigbee-device-stack.h</file>
+      <file>$PROJ_DIR$\Normal\List\spiflash-class1.lst</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\board\dev0680.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\bootload.h</file>
+      <file>$PROJ_DIR$\..\..\..\app\framework\include\af-types.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\hal.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\error.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\buzzer.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\serial.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\bootloader-eeprom.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\token.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\random.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\led.h</file>
+      <file>$PROJ_DIR$\Normal\List\bootloader-gpio.lst</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\bootloader-interface.h</file>
+      <file>$PROJ_DIR$\Normal\List\micro-common.lst</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\compiler\iar-boot.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\system-timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\bootloader-interface-app.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\rf4ce\rf4ce-token-config.h</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\bootloader-uart.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\app-bootloader-spiflash.log</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\app-bootloader-custom.lst</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\micro-common.o</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\compiler\asm.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\standalone-bootloader.h</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\app-bootloader-spiflash.map</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\bootloader-uart.lst</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\isr-stubs.lst</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\mfg-token.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\app-bootloader-spiflash.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\bootloader-uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\cstartup-iar-boot-entry.s79</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\generic\crc.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\cstartup-iar-boot.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\isr-stubs.s79</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\generic\mem-util.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\led.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\mfg-token.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\micro-common.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\generic\random.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\spiflash-class1.c</file>
+      <file>$PROJ_DIR$\Normal\Obj\app-bootloader-custom.o</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Normal\Exe\app-bootloader-spiflash.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 80 204 131 68 67 66 8 65 7 64 13 12 11 10 9 108 127 88</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\build\app-bootloader-spiflash-cortexm3-iarboot-em357-null-dev0680-eeprom_uses_shutdown_control\app-bootloader-spiflash.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 188 183</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 82 14 19 18 20 15 122 131 89 182 100 123 129 125 98 91 102 185 86 93 108 127 88</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\bootloader-gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 43 46 60 62 24 61 35 45 44 34 49 47 50 36 29 42 165 168 136 161 144 142 143 140 141 137 138 167 58 28 25 51 54 37 41 39 164 139 163 153 169 133 134 174 173 170 159 179 171 176 180 135 160 172 154 104 156 157 158 155 181 63 126 187 119</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 43 46 60 62 24 61 35 45 44 34 49 47 50 36 29 42 165 168 136 161 144 142 143 140 141 137 138 167 58 28 25 51 54 37 41 39 164 139 163 153 169 133 134 174 173 170 159 179 171 176 180 135 160 172 154 104 156 157 158 155 181 63 126 187 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\app-bootloader-custom.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 184 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 126 83 119 121 58 28 25 51 54 37 41 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 126 83 119 121 58 28 25 51 54 37 41 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\bootloader-uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 189 182</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 126 83 46 60 62 24 61 167 58 28 25 51 54 37 41 39 164 139 163 153 169 133 134 174 173 170 159 179 171 176 180 135 160 172 154 104 156 157 158 155 181 63</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 126 83 46 60 62 24 61 167 58 28 25 51 54 37 41 39 164 139 163 153 169 133 134 174 173 170 159 179 171 176 180 135 160 172 154 104 156 157 158 155 181 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\cstartup-iar-boot-entry.s79</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 123 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 186</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\generic\crc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 100</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\cstartup-iar-boot.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 23 17 22 21 58 28 25 51 54 37 41 39 16 113 114 115 126 116 117 110 111 171 119 46 60 62 24 61 176 180 135 112 138</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 23 17 22 21 58 28 25 51 54 37 41 39 16 113 114 115 126 116 117 110 111 171 119 46 60 62 24 61 176 180 135 112 138</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\isr-stubs.s79</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 125 190</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 186 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\generic\mem-util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 46 60 62 24 61 168 136 167 58 28 25 51 54 37 41 39 164 139 163 153 169 133 134 174 173 170 159 179 171 176 180 135 160 172 154 104 156 157 158 155 181 63</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 46 60 62 24 61 168 136 167 58 28 25 51 54 37 41 39 164 139 163 153 169 133 134 174 173 170 159 179 171 176 180 135 160 172 154 104 156 157 158 155 181 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92 98</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 58 28 25 51 54 37 41 39 164 174</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 58 28 25 51 54 37 41 39 164 174</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\mfg-token.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 191</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 168 136 78 16 113 114 115 126 116 117 110 104 156</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 168 136 78 16 113 114 115 126 116 117 110 104 156</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\micro-common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 185</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 168 136 51 41 39 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 168 136 51 41 39 164</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\generic\random.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 46 60 62 24 61 167 58 28 25 51 54 37 41 39 164 139 163 153 169 133 134 174 173 170 159 179 171 176 180 135 160 172 154 104 156 157 158 155 181 63</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 46 60 62 24 61 167 58 28 25 51 54 37 41 39 164 139 163 153 169 133 134 174 173 170 159 179 171 176 180 135 160 172 154 104 156 157 158 155 181 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\spiflash-class1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 171 126 83 58 28 25 51 54 37 41 39 164 16 113 114 115 116 117 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 38 32 52 40 57 27 56 26 31 30 48 59 33 55 53 171 126 83 58 28 25 51 54 37 41 39 164 16 113 114 115 116 117 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 124 188 183</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+

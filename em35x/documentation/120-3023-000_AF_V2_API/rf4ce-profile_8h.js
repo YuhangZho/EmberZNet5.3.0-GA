@@ -1,0 +1,28 @@
+var rf4ce_profile_8h =
+[
+    [ "emberAfPushRf4ceNetworkIndex", "rf4ce-profile_8h.html#a4b0191d868bef55552f4763aff93e226", null ],
+    [ "emberAfRf4ceStart", "rf4ce-profile_8h.html#a8273f29ea6ef5a79f0da3e64f9b0afbd", null ],
+    [ "emberAfRf4ceSetPowerSavingParameters", "rf4ce-profile_8h.html#af9d05dfe14e1f6fd6ca5a36bca1674e3", null ],
+    [ "emberAfRf4ceSetFrequencyAgilityParameters", "rf4ce-profile_8h.html#ad7e5be653594ee8489454869a5a0f7a2", null ],
+    [ "emberAfRf4ceSetDiscoveryLqiThreshold", "rf4ce-profile_8h.html#a8961cdce67e08a0eed154f903dbd259a", null ],
+    [ "emberAfRf4ceDiscovery", "rf4ce-profile_8h.html#a584fe69332f43ecf4b907bca3e808167", null ],
+    [ "emberAfRf4ceEnableAutoDiscoveryResponse", "rf4ce-profile_8h.html#ac28c4d742dae7ca77699bd41baa406b6", null ],
+    [ "emberAfRf4cePair", "rf4ce-profile_8h.html#a0fc7ac77f80850fb4bae75332183abe4", null ],
+    [ "emberAfRf4ceGetPairingIndex", "rf4ce-profile_8h.html#aeee7e602efe1a23a6d2cd74438278397", null ],
+    [ "emberAfRf4ceSetPairingTableEntry", "rf4ce-profile_8h.html#a11c635b06ad186ab50195317777c8797", null ],
+    [ "emberAfRf4ceGetPairingTableEntry", "rf4ce-profile_8h.html#a6d6bfb83468bff66423626429b513210", null ],
+    [ "emberAfRf4ceSetApplicationInfo", "rf4ce-profile_8h.html#a29edd908c1864cefcfbf21416a49ba9b", null ],
+    [ "emberAfRf4ceGetApplicationInfo", "rf4ce-profile_8h.html#a6427d880f5604cff4057eb5db13f6a66", null ],
+    [ "emberAfRf4ceKeyUpdate", "rf4ce-profile_8h.html#a14ebd88bbd68ca6abf036c5f1868a47d", null ],
+    [ "emberAfRf4ceSend", "rf4ce-profile_8h.html#a2bd3ae73e87fe9969990f211f282e537", null ],
+    [ "emberAfRf4ceSendVendorSpecific", "rf4ce-profile_8h.html#aea0b7cd1bb8ed302f674ea975d4a4c3d", null ],
+    [ "emberAfRf4ceUnpair", "rf4ce-profile_8h.html#a1cf891faa8550c2278fdbf5e8488f25f", null ],
+    [ "emberAfRf4ceStop", "rf4ce-profile_8h.html#a46e9e9877ef9474f1e110870b98efc52", null ],
+    [ "emberAfRf4ceDeviceTypeListLength", "rf4ce-profile_8h.html#ab4943ace82abf1a430707c5782bd67f7", null ],
+    [ "emberAfRf4ceProfileIdListLength", "rf4ce-profile_8h.html#a431d6b57231ce016e119c92ff953ab87", null ],
+    [ "emberAfRf4ceVendorId", "rf4ce-profile_8h.html#a3969582fcfe0a6ae35d4add7d417104b", null ],
+    [ "emberAfRf4ceIsDeviceTypeSupported", "rf4ce-profile_8h.html#aef5ec37345ef4a55e6796e0efffac4ef", null ],
+    [ "emberAfRf4ceIsDeviceTypeSupportedLocally", "rf4ce-profile_8h.html#af7ec7ffb89cc9337a6d27f301098836e", null ],
+    [ "emberAfRf4ceIsProfileSupported", "rf4ce-profile_8h.html#a8b47c2d5889d5756d7859be1dabadafd", null ],
+    [ "emberAfRf4ceIsProfileSupportedLocally", "rf4ce-profile_8h.html#a73b07fcb896da0a1cad98a31e850a542", null ]
+];

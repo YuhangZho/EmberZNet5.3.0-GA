@@ -1,0 +1,22 @@
+image-builder Copyright 2013 Silicon Laboratories, Inc.
+Version: 1.5.1
+ECC signature support NOT present.
+
+EBL file integrity 'plug_base_2_0.ebl': OK
+
+File: D:\Tools\Sengled\Ember\EmberZNet5.3.0-GA\em35x\build\plug_base_2_0\plug_base_2_0.ota
+Magic Number:         0x0BEEF11E
+Header Version:       0x0100
+Header Length:        56 bytes
+Field Control:        0x0000
+Manufacturer ID:      0x1160
+Image Type:           0x0834
+Firmware Version:     0x00000001
+Stack Version:        0x0002
+Header String:        EBL plug_base_2_0
+Total Image Size:     113854 bytes
+Total Tags:           1
+  ID:                 0x0000   (Upgrade Image)
+  Length:             113792 bytes
+
+

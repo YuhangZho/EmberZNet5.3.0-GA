@@ -1,0 +1,1948 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>486851498</fileChecksum>
+  <configuration>
+    <name>Normal</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\framework\util\attribute-storage.c</file>
+      <file>$PROJ_DIR$\..\..\framework\security\af-security-common.c</file>
+      <file>$PROJ_DIR$\..\..\framework\security\af-trust-center.c</file>
+      <file>$PROJ_DIR$\..\..\framework\util\attribute-size.c</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\util.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\zcl-cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\zdo-cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\zigbee-device-library.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\zigbee-device-common.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\silicondemo.out</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\silicondemo.s37</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\silicondemo.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\ezmode-commissioning\ez-mode.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\compiler\iar.h</file>
+      <file>$PROJ_DIR$\..\..\util\common\form-and-join-adapter.h</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\idle-sleep\idle-sleep.h</file>
+      <file>$PROJ_DIR$\..\..\util\common\common.h</file>
+      <file>$PROJ_DIR$\..\..\framework\util\af-event.h</file>
+      <file>$PROJ_DIR$\silicondemo_endpoint_config.h</file>
+      <file>$PROJ_DIR$\..\..\framework\security\crypto-state.h</file>
+      <file>$PROJ_DIR$\..\..\framework\util\service-discovery.h</file>
+      <file>$PROJ_DIR$\..\..\framework\util\attribute-storage.h</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\test-harness\test-harness.h</file>
+      <file>$PROJ_DIR$\af-structs.h</file>
+      <file>$PROJ_DIR$\attribute-id.h</file>
+      <file>$PROJ_DIR$\att-storage.h</file>
+      <file>$PROJ_DIR$\attribute-type.h</file>
+      <file>$PROJ_DIR$\call-command-handler.h</file>
+      <file>$PROJ_DIR$\callback.h</file>
+      <file>$PROJ_DIR$\client-command-macro.h</file>
+      <file>$PROJ_DIR$\cluster-id.h</file>
+      <file>$PROJ_DIR$\command-id.h</file>
+      <file>$PROJ_DIR$\debug-printing.h</file>
+      <file>$PROJ_DIR$\print-cluster.h</file>
+      <file>$PROJ_DIR$\..\..\framework\util\client-api.h</file>
+      <file>$PROJ_DIR$\..\..\framework\cli\zcl-cli.h</file>
+      <file>$PROJ_DIR$\..\..\util\serial\command-interpreter2.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\random.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\led.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\serial.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\system-timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\bootloader-eeprom.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\bootloader-interface-standalone.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\bootloader-interface.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\bootloader-interface-app.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\diagnostic.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\token.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\memmap.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\memmap-tables.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\cbke-crypto-engine.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\em357\memmap.h</file>
+      <file>$PROJ_DIR$\..\..\framework\security\af-node.c</file>
+      <file>$PROJ_DIR$\..\..\framework\util\attribute-table.c</file>
+      <file>$PROJ_DIR$\..\..\framework\util\af-main-common.c</file>
+      <file>$PROJ_DIR$\..\..\framework\util\af-main-soc.c</file>
+      <file>$PROJ_DIR$\..\..\framework\util\af-event.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\core-cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\concentrator-support.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\crc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\cstartup-iar-common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\crypto-state.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\diagnostic.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\em_usbd.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\em_usbdep.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\em_usbdch9.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\em_usbhal.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\em_usbint.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\endian.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\ember-configuration.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\ez-mode.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\form-and-join-node-adapter.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\serial.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\form-and-join.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\identify-cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\identify-feedback.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\service-discovery-soc.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\service-discovery-common.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\sim-eeprom.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\source-route-common.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\silicondemo_callbacks.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\sleep.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\token-def.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\source-route.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\stack-handler-stub.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\token.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\af-security-common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\af-trust-center.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\attribute-size.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\attribute-storage.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\attribute-table.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\idle-sleep-cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\idle-sleep.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\idle-sleep-soc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\led.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\library.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\mem-util.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\message.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\mfg-token.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\micro-common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\uart.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\util.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\zcl-cli.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\zdo-cli.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\faults.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\zigbee-device-common.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\zigbee-device-library.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\isr-stubs.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\adc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\af-event.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\af-main-common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\af-main-soc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\af-node.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\identify.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\mfg-token.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\micro.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\micro-common.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\mpu.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\network-cli.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\multi-network.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\option-cli.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\network-find.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\plugin-cli.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\print.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\print-formatter.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\process-cluster-message.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\random.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\process-global-message.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\reporting.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\reporting-cli.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\security-address-cache.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\security-cli.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\button.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\bootloader-interface-app.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\bootloader-interface.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\buzzer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\call-command-handler.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\callback-stub.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\callbacks.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\command-interpreter2.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\client-api.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\concentrator-support-cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\regs.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\em357\regs.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\micro-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\em357\regs-internal.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\micro-features.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\em357\micro-features.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\generic\compiler\platform-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\error.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\error-def.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\micro-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\nvic-config.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\attribute-storage.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\attribute-table.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\button.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\bootloader-interface-app.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\bootloader-interface.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\buzzer.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\call-command-handler.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\callbacks.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\core-cli.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\concentrator-support-cli.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\concentrator-support.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\command-interpreter2.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\crc.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\diagnostic.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\crypto-state.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\em_usbd.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\em_usbdch9.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\cstartup-iar-common.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\em_usbhal.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\em_usbint.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\em_usbdep.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\endian.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\ember-configuration.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\ez-mode.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\identify-feedback.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\form-and-join-node-adapter.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\form-and-join.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\identify-cli.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\idle-sleep.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\idle-sleep-cli.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\identify.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\led.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\idle-sleep-soc.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\message.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\library.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\mem-util.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\micro.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\mpu.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\print.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\multi-network.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\network-cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\network-find.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\option-cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\plugin-cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\print-formatter.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\random.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\process-cluster-message.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\process-global-message.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\reporting.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\reporting-cli.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\usb\usbconfig.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\usb\em_usb.h</file>
+      <file>$PROJ_DIR$\..\..\framework\cli\security-cli.h</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\fragmentation\fragmentation.h</file>
+      <file>$PROJ_DIR$\..\..\framework\security\security-profile-data.h</file>
+      <file>$PROJ_DIR$\..\..\util\counters\counters.h</file>
+      <file>$PROJ_DIR$\..\..\util\security\security.h</file>
+      <file>$PROJ_DIR$\..\..\util\zigbee-framework\zigbee-device-library.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\diagnostic.h</file>
+      <file>$PROJ_DIR$\..\..\util\common\form-and-join.h</file>
+      <file>$PROJ_DIR$\..\..\framework\cli\plugin-cli.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\em35x\em357\mpu-config.h</file>
+      <file>$PROJ_DIR$\..\..\framework\cli\zdo-cli.h</file>
+      <file>$PROJ_DIR$\..\..\framework\cli\network-cli.h</file>
+      <file>$PROJ_DIR$\..\..\framework\cli\core-cli.h</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\gateway\gateway-support-cli.h</file>
+      <file>$PROJ_DIR$\..\..\framework\cli\option-cli.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\mpu.h</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\test-harness\test-harness-cli.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\mpu-config.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\internal-storage.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader-size.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\cstartup-iar-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\sim-eeprom-size.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\compiler\asm.h</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\isr-stubs.lst</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\faults.lst</file>
+      <file>$PROJ_DIR$\..\..\util\serial\serial.c</file>
+      <file>$PROJ_DIR$\silicondemo_callbacks.c</file>
+      <file>$PROJ_DIR$\..\..\framework\util\service-discovery-common.c</file>
+      <file>$PROJ_DIR$\..\..\framework\util\service-discovery-soc.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\generic\sim-eeprom.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\sleep.c</file>
+      <file>$PROJ_DIR$\..\..\util\source-route-common.c</file>
+      <file>$PROJ_DIR$\..\..\util\source-route.c</file>
+      <file>$PROJ_DIR$\stack-handler-stub.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\token-def.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\token.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\uart.c</file>
+      <file>$PROJ_DIR$\..\..\framework\util\util.c</file>
+      <file>$PROJ_DIR$\..\..\framework\cli\zcl-cli.c</file>
+      <file>$PROJ_DIR$\..\..\framework\cli\zdo-cli.c</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\cli.o</file>
+      <file>$PROJ_DIR$\..\..\util\zigbee-framework\zigbee-device-common.c</file>
+      <file>$PROJ_DIR$\..\..\util\zigbee-framework\zigbee-device-library.c</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\client-api.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\af-event.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\af-trust-center.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\attribute-size.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\af-main-common.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\adc.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\af-main-soc.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\af-security-common.o</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\af-node.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\callback-stub.o</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\identify\identify-cli.c</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\identify-feedback\identify-feedback.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\led.c</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\identify\identify.c</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\idle-sleep\idle-sleep-cli.c</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\idle-sleep\idle-sleep-soc.c</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\idle-sleep\idle-sleep.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\isr-stubs.s79</file>
+      <file>$PROJ_DIR$\..\..\util\common\library.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\generic\mem-util.c</file>
+      <file>$PROJ_DIR$\..\..\framework\util\message.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\mfg-token.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\micro.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\micro-common.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\mpu.c</file>
+      <file>$PROJ_DIR$\..\..\framework\util\multi-network.c</file>
+      <file>$PROJ_DIR$\..\..\framework\cli\network-cli.c</file>
+      <file>$PROJ_DIR$\..\..\framework\cli\option-cli.c</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\network-find\network-find.c</file>
+      <file>$PROJ_DIR$\..\..\framework\cli\plugin-cli.c</file>
+      <file>$PROJ_DIR$\..\..\framework\util\print-formatter.c</file>
+      <file>$PROJ_DIR$\..\..\framework\util\print.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\generic\random.c</file>
+      <file>$PROJ_DIR$\..\..\framework\util\process-cluster-message.c</file>
+      <file>$PROJ_DIR$\..\..\framework\util\process-global-message.c</file>
+      <file>$PROJ_DIR$\..\..\framework\cli\security-cli.c</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\reporting\reporting-cli.c</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\reporting\reporting.c</file>
+      <file>$PROJ_DIR$\..\..\util\security\security-address-cache.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader-interface-app.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\button.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader-interface.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\buzzer.c</file>
+      <file>$PROJ_DIR$\call-command-handler.c</file>
+      <file>$PROJ_DIR$\callback-stub.c</file>
+      <file>$PROJ_DIR$\cli.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\usb\cdc\callbacks.c</file>
+      <file>$PROJ_DIR$\..\..\framework\util\client-api.c</file>
+      <file>$PROJ_DIR$\..\..\util\serial\command-interpreter2.c</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\concentrator\concentrator-support-cli.c</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\concentrator\concentrator-support.c</file>
+      <file>$PROJ_DIR$\..\..\framework\cli\core-cli.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\generic\crc.c</file>
+      <file>$PROJ_DIR$\..\..\framework\security\crypto-state.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\diagnostic.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\cstartup-iar-common.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\ember-configuration.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\usb\em_usbd.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\usb\em_usbdch9.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\usb\em_usbdep.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\usb\em_usbhal.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\usb\em_usbint.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\generic\endian.c</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\ezmode-commissioning\ez-mode.c</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\faults.s79</file>
+      <file>$PROJ_DIR$\..\..\util\common\form-and-join.c</file>
+      <file>$PROJ_DIR$\..\..\util\common\form-and-join-node-adapter.c</file>
+      <file>$PROJ_DIR$\..\..\..\build\hal-library-cortexm3-iar-em357-em3xx\hal-library.a</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\adc.lst</file>
+      <file>$PROJ_DIR$\attribute-size.h</file>
+      <file>$PROJ_DIR$\..\..\framework\util\common.h</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\attribute-size.lst</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\ebl.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\bootloader-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\memmap-fat.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\bootloader-ccm.h</file>
+      <file>$PROJ_DIR$\..\..\framework\util\util.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader\fib-bootloader.h</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\bootloader-interface.lst</file>
+      <file>$PROJ_DIR$\..\..\framework\include\af.h</file>
+      <file>$PROJ_DIR$\..\..\framework\util\config.h</file>
+      <file>$PROJ_DIR$\silicondemo.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\message.h</file>
+      <file>$PROJ_DIR$\..\..\framework\security\security-config.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\ember.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\ember-types.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\config\ember-configuration-defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\zll-types.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\ember-static-struct.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\rf4ce-types.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\stack-info.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\packet-buffer.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\network-formation.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\token.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\mfg-token.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\zll\zll-token-config.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\token-manufacturing.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\config\token-stack.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\config\token-phy.h</file>
+      <file>$PROJ_DIR$\..\..\framework\util\tokens.h</file>
+      <file>$PROJ_DIR$\..\..\framework\include\af-types.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\rf4ce\rf4ce-token-config.h</file>
+      <file>$PROJ_DIR$\enums.h</file>
+      <file>$PROJ_DIR$\silicondemo_tokens.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\symbol-timer.h</file>
+      <file>$PROJ_DIR$\..\..\framework\util\print.h</file>
+      <file>$PROJ_DIR$\..\..\util\serial\serial.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\raw-message.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\rf4ce-api.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\child.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\security.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\trust-center.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\aes-mmo.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\binding-table.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\bootload.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\event.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\zigbee-device-stack.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\ember-debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\library.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\multi-network.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\include\zll-api.h</file>
+      <file>$PROJ_DIR$\..\..\..\stack\config\config.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\micro.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\hal.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\micro-types.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\generic\em2xx-reset-defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\micro.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\reset-def.h</file>
+      <file>$PROJ_DIR$\silicondemo_board.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\endian.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\button.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\buzzer.h</file>
+      <file>$PROJ_DIR$\..\..\util\common\library.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\crc.h</file>
+      <file>$PROJ_DIR$\..\..\framework\util\attribute-table.h</file>
+      <file>$PROJ_DIR$\..\..\framework\util\af-main.h</file>
+      <file>$PROJ_DIR$\..\..\framework\security\af-security.h</file>
+      <file>$PROJ_DIR$\..\..\framework\cli\custom-cli.h</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\concentrator\concentrator-support.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\sim-eeprom.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\hal\micro\sim-eeprom.h</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\partner-link-key-exchange\partner-link-key-exchange.h</file>
+      <file>$PROJ_DIR$\..\..\util\zigbee-framework\zigbee-device-common.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\ota-storage-common\ota-storage.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\util\source-route-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\security-address-cache.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\serial.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\security-cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\service-discovery-soc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\service-discovery-common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\silicondemo_callbacks.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\sleep.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\sim-eeprom.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\source-route-common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\source-route.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\token-def.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\stack-handler-stub.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\token.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\build\silicondemo\uart.pbi</file>
+      <file>$PROJ_DIR$\..\..\framework\plugin\reporting\reporting.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\util\attribute-storage.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 24 21 331 337 395</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 16 13 9 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\security\af-security-common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 397 217 219</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 16 13 9 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\security\af-trust-center.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 397 396 409</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 16 13 9 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\util\attribute-size.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 332 263</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 29 330</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 29 330</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\build\silicondemo\silicondemo.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\security\af-node.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 397</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 16 13 9 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\util\attribute-table.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 331 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 337 395 24 21 396</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 331 340 16 13 9 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\util\af-main-common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 52 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 39 23 340 366 26 27 28 29 30 31 32 33 34 35 36 37 38 396 24 21 395 337 397 22 393 404 403 406</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 13 9 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 52 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\util\af-main-soc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 24 21 404 222 220 221 224 23 396 337 397 403 218 223</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 16 13 9 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\util\af-event.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 340 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 20 21 22 23 25 24</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 13 9 146 152 154 155 156 157 340 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 329 265</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 158 159 153 161 162 163 160</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 158 159 153 161 162 163 160</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\util\serial\serial.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\silicondemo_callbacks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 415</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\util\service-discovery-common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 414</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\util\service-discovery-soc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 413</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\generic\sim-eeprom.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 417</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\sleep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 416</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\util\source-route-common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 418</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\util\source-route.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 419</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stack-handler-stub.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 421</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\token-def.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 420</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\token.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 422</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 423</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\util\util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\cli\zcl-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\cli\zdo-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\util\zigbee-framework\zigbee-device-common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\util\zigbee-framework\zigbee-device-library.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\plugin\identify\identify-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 191</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\plugin\identify-feedback\identify-feedback.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 188</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 331 337 395 24 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 195</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 383 386 385 153 387 388 161 162 389 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\plugin\identify\identify.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 194</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 331 337 395 24 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\plugin\idle-sleep\idle-sleep-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 193</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\plugin\idle-sleep\idle-sleep-soc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 196</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 20 21 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\plugin\idle-sleep\idle-sleep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 192</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 20 21 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\isr-stubs.s79</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 110 240</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 239 162</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\util\common\library.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 198</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\generic\mem-util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 199</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 346 347 341 342 344 349 348 350 158 159 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\util\message.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 337</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\mfg-token.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 158 159 401 50 53 51 333 334 336 335 338 355 357</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\micro.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 200</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 223 50 53 51 333 334 336 335 338 401</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\micro-common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 158 159 153 161 162 389</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\mpu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 201</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 232 234 226 383 386 385 153 387 388 161 162</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\util\multi-network.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 203</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\cli\network-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 204</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 396 404 228</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\cli\option-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 206</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\plugin\network-find\network-find.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 205</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 224</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\cli\plugin-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 207</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 225 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\util\print-formatter.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 208</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\util\print.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 202</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\generic\random.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 148 149 14 348 163 386 47 359 147 341 383 390 48 388 358 357 346 146 150 269 347 389 392 40 44 365 161 356 363 384 13 155 157 151 152 154 156 349 350 342 344 391 394 41 42 43 46 49 385 153 387 162 160 45 354 355 362 360 361 364 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\util\process-cluster-message.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 331 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 337 395 24 21 396</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\util\process-global-message.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 211</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\cli\security-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 412</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\plugin\reporting\reporting-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13 158 49 155 39 377 153 340 31 150 269 343 341 372 41 355 14 345 27 35 346 373 380 382 348 391 43 385 45 357 359 361 424 367 366 29 33 36 157 148 147 149 9 353 370 375 378 369 347 394 42 46 387 162 160 354 358 356 363 16 384 376 26 28 30 32 34 37 38 146 151 152 154 156 342 344 351 352 368 371 374 379 381 349 350 159 383 389 163 392 390 40 44 48 365 386 388 161 47 362 360 364</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\plugin\reporting\reporting.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 212</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 356 16 30 342 374 376 37 351 381 350 392 388 363 340 26 34 14 9 156 344 368 389 40 365 161 357 28 24 384 361 32 38 146 151 148 152 154 352 371 158 379 349 159 383 163 390 48 386 47 359 331 424 341 345 367 366 27 29 31 33 35 36 39 13 155 157 147 150 269 149 346 353 343 370 373 375 377 378 380 369 382 347 348 372 391 394 41 42 43 46 49 385 153 387 162 160 45 354 355 358 362 360 364 395 337 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\util\security\security-address-cache.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 410</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 370 163 386 148 149 378 384 157 147 9 353 375 369 347 383 390 48 388 357 364 345 221 13 155 150 269 346 343 373 377 380 382 348 341 372 389 392 40 44 365 161 358 360 158 367 14 146 151 152 154 156 351 352 368 371 374 376 379 381 349 350 342 344 159 391 394 41 42 43 46 49 385 153 387 47 362 361 16 162 160 45 354 355 359 356 363</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader-interface-app.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 346 347 341 342 344 349 348 350 158 159 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 334 333 336 50 53 51 335 338</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 13 9 146 152 154 155 156 157 346 347 341 342 344 349 348 350 158 159 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\button.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 13 9 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\bootloader-interface.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 339 168</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 346 347 341 342 344 349 348 350 46 47 44 45 50 53 51 333 334 336 335 338</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 346 347 341 342 344 349 348 350 46 47 44 45 50 53 51 333 334 336 335 338</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\buzzer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 13 9 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\call-command-handler.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 337 340 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 13 9 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 337 340 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\callback-stub.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 16 13 9 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 398</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340 16 13 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\usb\cdc\callbacks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 216 407 214 408 405 215</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 13 9 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\util\client-api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 260</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 331 340 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 337 395 24 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 331 340 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\util\serial\command-interpreter2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 13 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\plugin\concentrator\concentrator-support-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 399 409</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\plugin\concentrator\concentrator-support.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 174</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 409 399</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\cli\core-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 172</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 331 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 337 395 24 21 396 397 52 229 398 228 225 217 227 231 233 20 230 393</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\generic\crc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 176</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 394</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\security\crypto-state.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 331 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 337 395 24 21 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\diagnostic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 177</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 223 232 234 226</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\cstartup-iar-common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 223 232 234 226 383 386 385 153 387 388 161 162 50 53 51 333 334 336 335 338 237 235 236 238 346 347 341 342 344 349 348 350 46 47 44 45 382</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\ember-configuration.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 383 386 385 153 387 388 161 162 402 400 50 53 51 333 334 336 335 338 401 238</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\usb\em_usbd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\usb\em_usbdch9.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\usb\em_usbdep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 184</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\usb\em_usbhal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 182</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\usb\em_usbint.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 183</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\generic\endian.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 185</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 390 346 347 341 342 344 349 348 350</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\framework\plugin\ezmode-commissioning\ez-mode.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 187</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 341 342 344 345 346 347 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 366 26 27 28 29 30 31 32 33 34 35 36 37 39 38 396 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\hal\micro\cortexm3\faults.s79</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 107 241</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 239</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\util\common\form-and-join.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 190</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 346 347 341 342 344 349 348 350 158 159 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 367 224 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\util\common\form-and-join-node-adapter.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 189</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 13 9 14 148 147 269 149 150 151 146 152 154 155 156 157 345 346 347 341 342 344 349 348 350 351 353 352 343 368 370 371 372 373 374 375 158 159 377 376 378 379 380 381 369 382 384 383 386 385 153 387 388 161 162 389 163 160 391 392 394 390 41 40 42 43 44 46 47 45 48 49 354 355 357 358 359 356 362 360 361 363 364 365 224 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
